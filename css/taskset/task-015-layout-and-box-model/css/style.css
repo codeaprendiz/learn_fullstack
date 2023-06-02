@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  font-size: 20px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  background: #ccc;
+  height: 50px;
+}
+
+aside {
+  background: lightblue;
+  height: 250px;
+  width: 250px;
+  float: left;
+}
+
+article {
+  background: lightgreen;
+  height: 210px;
+  width: 250px;
+  float: left;
+  padding: 20px;
+}
+
+footer {
+  clear: both;
+}

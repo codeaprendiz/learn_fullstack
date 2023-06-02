@@ -1,0 +1,41 @@
+* {
+    color: red;
+}
+
+a {
+    color: black;
+}
+
+section a {
+    color: grey;
+    background-color: black;
+}
+
+section p a {
+    color: green;
+    background-color: blueviolet;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+.example1 {
+    color: orange;
+}
+
+.example2 {
+    color: black;
+}
+
+.example1.example2 {
+    background: blue;
+}
+
+#iamp {
+    font-size: 15px
+}

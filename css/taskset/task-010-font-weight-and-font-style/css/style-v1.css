@@ -1,0 +1,39 @@
+body {
+    display: grid;
+
+}
+
+header {
+    font-weight: bold;
+    /* font-style: italic; */
+    /*   font-style: oblique; */
+    color: blue;
+    background-color: gray;
+    padding: 4rem;
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border: 3px solid black;
+}
+
+header p {
+    /*   font-weight: 400; */
+    font-weight: normal;
+    border: 6px solid blue;
+    padding: 4rem;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    border: 6px solid blue;
+    padding: 1rem;
+}
+
+i {
+    font-style: normal;
+    border: 6px solid blue;
+    padding: 2rem;
+    margin: 1rem;
+}

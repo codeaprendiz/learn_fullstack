@@ -1,0 +1,22 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  border: 2px solid black;
+  width: 500px;
+  margin: 0 auto;
+  /*   overflow: hidden;
+    display: flow-root; */
+}
+
+.float {
+  background: lightblue;
+  border: 1px solid white;
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+  float: left;
+}

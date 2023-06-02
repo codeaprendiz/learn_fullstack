@@ -1,0 +1,12 @@
+/*
+Let's break down the code:
+- body: This is a CSS selector that targets the body element of an HTML document. It means that the style rules defined within the curly braces {}
+  will be applied to the body element and its child elements, unless there is a more specific selector that overrides this style. 
+- font-family: Arial, sans-serif; : This line sets the font family for the targeted element(s).
+  It specifies that the text should be displayed using the "Arial" font. If the "Arial" font is not available on the user's device, 
+  the text will be displayed using a generic "sans-serif" font as a fallback. 
+*/
+
+body {
+    font-family: Arial, sans-serif;
+}

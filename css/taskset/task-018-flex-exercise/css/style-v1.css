@@ -1,0 +1,18 @@
+.flex-container {
+  border: 3px solid black;
+  background: greenyellow;
+  margin-bottom: 10px;
+  margin-top: 10rem;
+  margin-left: 15rem;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  font-size: x-large;
+  box-sizing: border-box;
+  border: 3px solid midnightblue;
+  padding: 10px;
+  flex: 1 1 100px;
+}

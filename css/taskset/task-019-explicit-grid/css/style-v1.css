@@ -1,0 +1,25 @@
+.grid-container-1 {
+  border: 4px solid black;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px;
+  grid-auto-rows: 200px;
+  grid-auto-columns: 50px;
+  margin: 3rem;
+  background-color: darkcyan;
+}
+
+.grid-container-2 {
+  border: 4px solid black;
+  display: grid;
+  grid-auto-columns: 50px;
+  margin: 3rem;
+  background-color: darkcyan;
+}
+
+.grid-item {
+  border: 2px solid midnightblue;
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: blueviolet;
+}

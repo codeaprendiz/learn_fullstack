@@ -1,0 +1,9 @@
+.background {
+  max-width: 600px;
+  padding: 100px;
+  background-color: lightblue;
+  background-image: url(https://st2.depositphotos.com/1400069/7675/i/450/depositphotos_76750263-stock-photo-serious-stern-baby.jpg);
+  /*   background-repeat: no-repeat; */
+  background-position: 100px;
+  background-size: 100%;
+}

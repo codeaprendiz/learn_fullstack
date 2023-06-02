@@ -1,0 +1,49 @@
+* {
+    color: yellowgreen;
+}
+
+a {
+    color: black;
+}
+
+body {
+    margin-top: 10rem;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    background-color: gray;
+}
+
+section a {
+    color: grey;
+    background-color: black;
+}
+
+section p a {
+    color: green;
+    background-color: gold;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+.example1 {
+    color: orange;
+}
+
+.example2 {
+    color: black;
+}
+
+.example1.example2 {
+    background: blue;
+}
+
+#iamp {
+    font-size: 15px
+}

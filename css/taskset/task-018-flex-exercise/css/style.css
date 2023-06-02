@@ -1,0 +1,13 @@
+.flex-container {
+    background: lightblue;
+    margin-bottom: 10px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap:
+  }
+  .flex-item {
+    box-sizing: border-box;
+    border: 1px solid midnightblue;
+    padding: 10px;
+    flex: 1 1 100px;
+  }

@@ -1,0 +1,19 @@
+/* Select all */
+
+* {
+    color: red;
+}
+
+
+/* Select h1 */
+
+h1 {
+    color: blue;
+}
+
+
+/* Select h2 */
+
+h2 {
+    color: green;
+}

@@ -1,0 +1,34 @@
+/* Select all */
+
+* {
+    color: purple;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+
+/* Select h1 */
+
+h1 {
+    color: pink;
+    /* Adjust the border width, style, and color to your preference */
+    border: 2px solid red;
+    /* Add padding around the text for better spacing */
+    padding: 10px;
+    /* Make the border fit around the text instead of the full container width */
+    display: inline-block;
+    
+}
+
+
+/* Select h2 */
+
+h2 {
+    color: black;
+    font-size: large;
+
+}

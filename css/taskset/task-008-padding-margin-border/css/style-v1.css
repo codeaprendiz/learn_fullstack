@@ -1,0 +1,25 @@
+p {
+    background: blue;
+    border: 5px solid black;
+    padding: 50px;
+    font-size: 2rem;
+}
+
+span {
+    background: green;
+    border: 5px solid black;
+    font-size: 2rem;
+    padding: 50px;
+    margin: 50px;
+    display: inline-block;
+}
+
+.first {
+    margin-bottom: 0;
+    background-color: aqua;
+}
+
+.second {
+    margin-top: 0;
+    background-color: brown;
+}

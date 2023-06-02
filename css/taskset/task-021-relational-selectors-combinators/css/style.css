@@ -1,0 +1,19 @@
+p {
+  font-size: 20px;
+}
+
+section p {
+  color: red;
+}
+
+section>p {
+  color: blue;
+}
+
+h1+p {
+  color: pink;
+}
+
+h1~p {
+  color: green;
+}

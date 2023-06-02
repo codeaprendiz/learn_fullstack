@@ -1,0 +1,21 @@
+div {
+    font-size: xx-large;
+    margin-left: 15rem;
+    padding: 5rem;
+    border: 2px solid red;
+    background: blue;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+}
+
+span {
+    margin-left: 15rem;
+    padding: 5rem;
+    border: 2px solid red;
+    background: green;
+    height: 50px;
+    width: 100px;
+    display: block;
+    font-size: xx-large;
+}

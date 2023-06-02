@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+/* ul {
+  font-family: Times;
+  color: red;
+} */
+
+/* class */
+/* .nested {
+  font-family: Times;
+  color: red;
+} */
+
+/* id */
+/* #last {
+  color: red;
+} */
+
+/* #last, .nested {
+  color: red;
+} */
+
+/* ul a {
+  color: red;
+} */
+
+/* descendant selector */
+ul ul a {
+  color: red;
+}
+
+/* ul ol ul ol {
+  border: 1px solid blue;
+} */
+
+ul ol ul ol li {
+  border: 1px solid blue;
+}
+
+/* parent child selector */
+ul.nested > li {
+  border: 2px dotted black;
+}
+
+ul.nested li > ol li ~ li {
+  color: green;
+  padding: 1rem;
+}
+
+
+/*
+Elements, classes, IDs
+Groups of selectors
+Descendent selectors
+Parent-child
+Adjacent/general sibling
+Attribute selectors
+
+*/

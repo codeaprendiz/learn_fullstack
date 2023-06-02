@@ -1,0 +1,20 @@
+section {
+    color: red;
+}
+
+* {
+    color: blue;
+}
+
+p {
+    color: green;
+}
+
+.example {
+    color: orange;
+}
+
+#example {
+    color: purple;
+    background-color: blue;
+}

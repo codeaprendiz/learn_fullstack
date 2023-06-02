@@ -1,0 +1,51 @@
+html {
+  background: gray;
+}
+
+body {
+  background: white;
+  height: 400px;
+}
+
+.block1 {
+  /*   display: none; */
+  position: absolute;
+  background: pink;
+  height: 70px;
+  width: 70px;
+  z-index: 200;
+}
+
+.block2 {
+  /*   display: none; */
+  /*   position: absolute; */
+  background: red;
+  height: 70px;
+  width: 70px;
+  margin: -10px 0 0 20px;
+}
+
+.float {
+  /*   display: none; */
+  background: lightblue;
+  float: left;
+  height: 70px;
+  width: 70px;
+  margin: -50px 0 0 60px;
+}
+
+.inline {
+  /*   display: none; */
+  background: blue;
+  color: white;
+  padding: 10px 40px 10px 40px;
+}
+
+.position {
+  /*   display: none; */
+  background: orange;
+  position: relative;
+  left: 50px;
+  top: -15px;
+  height: 110px;
+}

@@ -1,0 +1,13 @@
+div {
+    background: blue;
+    height: 50px;
+    width: 100px;
+    /* display: inline-block; */
+}
+
+span {
+    background: green;
+    height: 50px;
+    width: 100px;
+    /* display: block; */
+}

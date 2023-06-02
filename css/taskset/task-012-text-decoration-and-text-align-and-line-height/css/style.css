@@ -1,0 +1,18 @@
+header {
+    text-align: center;
+    text-align: right;
+    text-align: left;
+    text-align: justify;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    background-color: green;
+}
+
+p {
+    font-size: 16px;
+    line-height: 10px;
+    background-color: yellow;
+}

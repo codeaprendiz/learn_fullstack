@@ -1,0 +1,30 @@
+body {
+  margin: 15rem;
+  margin-left: 30rem;
+}
+
+p {
+  border: 4px solid blue;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+p:first-child {
+  border: 4px solid red;
+  color: red;
+}
+
+p:last-child {
+  border: 4px solid green;
+  color: green;
+}
+
+p:first-of-type {
+  border: 4px solid orange;
+  color: orange;
+}
+
+p:last-of-type {
+  border: 4px solid purple;
+  color: purple;
+}

@@ -1,0 +1,23 @@
+.container {
+  width: 1300px;
+  height: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 5px solid black;
+}
+
+
+p {
+  background: #CDCDCD;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+img {
+  float: right;
+  margin: 10px;
+}
+
+.clear {
+  clear: both;
+}

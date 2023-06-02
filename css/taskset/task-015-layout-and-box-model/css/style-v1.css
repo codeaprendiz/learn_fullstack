@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+  border: 4px solid orange;
+
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  font-weight: bolder;
+  font-size: 20px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  background: darkmagenta;
+  padding: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background: #ccc;
+  padding: 2rem;
+}
+
+aside {
+  border: 2px solid rgb(195, 22, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: darkgreen;
+  height: 250px;
+  width: 250px;
+  float: left;
+}
+
+article {
+  border: 2px sold darkkhaki;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: darkorange;
+  width: 550px;
+  height: 250px;
+  float: left;
+  padding: 20px;
+}
+
+footer {
+  clear: both;
+  background-color: darkred;
+}

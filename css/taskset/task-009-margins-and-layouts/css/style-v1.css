@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+
+}
+
+section {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  border: 6px solid black;
+  background: green;
+  width: 500px;
+  padding: 5px;
+  margin: 0 auto;
+  font-size: 5rem;
+}

@@ -1,0 +1,47 @@
+* {
+    color: red;
+}
+
+body {
+    margin-top: 10rem;
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+h1 {
+    color: blue;
+    border: 2px solid purple;
+}
+
+h2 {
+    color: green;
+}
+
+
+/* class selectors */
+
+.example1 {
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.example2 {
+    color: black;
+    padding: 6px;
+}
+
+.example1.example2 {
+    background: blue;
+    padding: 5px;
+}
+
+
+/* id selectors */
+
+#iamp {
+    font-size: 15px;
+    border: 4px solid pink;
+    background: purple;
+    padding: 4px;
+}

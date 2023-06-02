@@ -1,0 +1,19 @@
+p {
+  font-size: 20px;
+}
+
+p:first-child {
+  color: red;
+}
+
+p:last-child {
+  color: green;
+}
+
+p:first-of-type {
+  color: orange;
+}
+
+p:last-of-type {
+  color: purple;
+}

@@ -1,0 +1,26 @@
+section {
+  color: red;
+  margin-top: 400px;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  background-color: gray;
+}
+
+* {
+  color: gray;
+}
+
+p {
+  color: green;
+}
+
+.example {
+  color: orange;
+}
+
+#example {
+  color: brown;
+  font-size: xx-large;
+  background-color: gray;
+}

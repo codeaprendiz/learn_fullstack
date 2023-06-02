@@ -1,0 +1,27 @@
+body {
+    margin-top: 10rem;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    font-size: xx-large
+}
+
+a {
+    color: gray;
+}
+
+a:visited {
+    color: green;
+}
+
+a:focus {
+    color: orange;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: purple;
+}

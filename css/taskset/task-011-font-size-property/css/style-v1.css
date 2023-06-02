@@ -1,0 +1,16 @@
+html {
+    font-size: 1rem;
+}
+
+.parent {
+    font-size: 2em;
+}
+
+.child {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border: 1px solid black;
+    padding: 3rem;
+    font-size: 2em;
+}

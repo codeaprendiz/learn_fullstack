@@ -1,0 +1,35 @@
+* {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+
+/* class selectors */
+
+.example1 {
+    color: orange;
+}
+
+.example2 {
+    color: black;
+}
+
+.example1.example2 {
+    background: blue;
+}
+
+
+/* id selectors */
+
+#iamp {
+    font-size: 15px;
+    border: green;
+    background: purple;
+}

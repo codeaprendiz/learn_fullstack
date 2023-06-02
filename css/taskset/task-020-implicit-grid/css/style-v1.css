@@ -1,0 +1,15 @@
+.grid-container {
+  border: 4px solid black;
+  display: grid;
+  grid-template-columns: 100px repeat(2, 1fr);
+  grid-template-rows: 100px;
+  grid-auto-rows: 200px;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid mediumvioletred;
+  padding: 10px;
+}
