@@ -1,0 +1,15 @@
+{
+  "name": "task-004-package.json",
+  "version": "1.0.0",
+  "description": "- To create a package.json file for your project",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {}
+}

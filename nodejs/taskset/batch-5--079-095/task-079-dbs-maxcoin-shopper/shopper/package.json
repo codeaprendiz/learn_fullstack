@@ -1,0 +1,26 @@
+{
+  "name": "shopper",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Daniel Khan <daniel@khan.io>",
+  "scripts": {
+    "start": "node ./server/bin/start",
+    "dev": "nodemon ./server/bin/start"
+  },
+  "dependencies": {
+    "body-parser": "~1.19.0",
+    "cookie-parser": "~1.4.5",
+    "express": "~4.17.1",
+    "express-session": "^1.17.1",
+    "pug": "~3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.2"
+  }
+}
