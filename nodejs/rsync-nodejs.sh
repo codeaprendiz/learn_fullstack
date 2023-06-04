@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TARGET_STATE_DIRECTORY="$HOME/workspace/Frontend-Backend-DevOps/learn-nodejs"
-DIRECTORY_THAT_REQUIRES_SYNC="$HOME/workspace/codeaprendiz/learn-fullstack/nodejs"
+SYNC_FROM_DIR_THAT_MUST_NOT_CHANGE="$HOME/workspace/Frontend-Backend-DevOps/learn-nodejs"
+SYNC_TO_DIR_THAT_WILL_CHANGE="$HOME/workspace/codeaprendiz/learn-fullstack/nodejs"
 
 
 # Use the rsync command to sync the directories
@@ -10,4 +10,4 @@ DIRECTORY_THAT_REQUIRES_SYNC="$HOME/workspace/codeaprendiz/learn-fullstack/nodej
 # -a stands for "archive" and syncs directories recursively and preserves symbolic links, special and device files, modification times, group, owner, and permissions.
 # -r stands for "recursive" and copies directories recursively.
 # -v stands for "verbose" and provides detailed output.
-rsync -arv --delete --exclude='.git' "${TARGET_STATE_DIRECTORY}/" "${DIRECTORY_THAT_REQUIRES_SYNC}"
+rsync -arv --delete --exclude='.git' "${SYNC_FROM_DIR_THAT_MUST_NOT_CHANGE}/" "${SYNC_TO_DIR_THAT_WILL_CHANGE}"
