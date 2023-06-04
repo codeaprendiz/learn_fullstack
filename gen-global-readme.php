@@ -45,7 +45,7 @@ function createGlobalglobal_readme($languages) {
 
     // Print total number of tasks completed in the ReadMe.md file
 
-    $global_readme .= "Total number of tasks completed: " . count($taskDirectories) . "\n\n";
+    $global_readme .= ">Total number of tasks: " . count($taskDirectories) . "\n\n";
 
     $global_readme .= "## Languages\n\n";
 

@@ -1,6 +1,6 @@
 # Learn Fullstack
 
-Total number of tasks completed: 306
+>Total number of tasks: 306
 
 ## Languages
 
