@@ -1,4 +1,10 @@
-# Global global_readme
+# Learn Fullstack
+
+Total number of tasks completed: 306
+
+## Languages
+
+Click on individual language for more detailed information
 
 - [css](css)
 - [go](go)

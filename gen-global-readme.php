@@ -38,13 +38,24 @@ function getDirectories($directoryPath, $pattern) {
 
 // Function that create a global global_readme.md file
 function createGlobalglobal_readme($languages) {
-    $global_readme = "# Global global_readme\n\n";
+    $global_readme = "# Learn Fullstack\n\n";
+
+    $taskDirectories = getDirectories('.', '/task-/');
+    // echo '<pre>'; print_r($taskDirectories); echo '</pre>';
+
+    // Print total number of tasks completed in the ReadMe.md file
+
+    $global_readme .= "Total number of tasks completed: " . count($taskDirectories) . "\n\n";
+
+    $global_readme .= "## Languages\n\n";
+
+    $global_readme .= "Click on individual language for more detailed information\n\n";
 
     foreach($languages as $language) {
         $global_readme .= "- [" . $language . "](" . $language . ")" . "\n";
     }
 
-    $taskDirectories = getDirectories('.', '/task-/');
+
     foreach($languages as $language) {
         $global_readme .= "\n## " . $language . "\n\n";
         foreach($taskDirectories as $taskDirectory) {
