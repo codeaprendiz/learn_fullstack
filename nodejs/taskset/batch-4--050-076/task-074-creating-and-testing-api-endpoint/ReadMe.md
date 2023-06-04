@@ -1,0 +1,15 @@
+# Creating and Testing API Endpoint
+
+- API endpoint response
+
+```bash
+$ curl --location --request POST 'http://localhost:3000/feedback/api' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "name": "Ankit",
+    "email": "ankit.rathi@company.com",
+    "title": "some Title here",
+    "message": "some message here"
+}'
+{"feedback":[{"name":"Ankit","email":"ankit.rathi@company.com","title":"some Title here","message":"some message here"},{"name":"Ankit","email":"ankit.rathi@company.com","title":"some Title here","message":"some message here"},{"name":"Ankit","email":"ankitrathi@gmail.com","title":"Mr Ankit","message":"My message"},{"name":"Frank","email":"frank-smith@gmail.com","title":"Best Meetup Ever","message":"I really love this meetup. Please don't let it end."},{"name":"Jane","email":"jane-miller@gmail.com","title":"Meeting Time","message":"Would you consider moving the meeting time 30 minutes to about 6pm. It's tough to make it to the meetings on time right after work."},{"name":"Roy","email":"roy-jones@gmail.com","title":"Great Speaker","message":"I really enjoyed the speaker this month. Would love to hear another presentation."}]}%         
+```
