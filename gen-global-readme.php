@@ -10,14 +10,6 @@ $languages = array(
     "reactjs",
 );
 
-// $languages = array(
-//     "### css" => "[css](css)",
-//     "### go" => "[go](go)",
-//     "### javascript" => "[javascript](javascript)",
-//     "### nodejs" => "[nodejs](nodejs)",
-//     "### reactjs" => "[reactjs](reactjs)",
-// );
-
 function getDirectories($directoryPath, $pattern) {
     $directoryIterator = new RecursiveDirectoryIterator($directoryPath, RecursiveDirectoryIterator::SKIP_DOTS);
     $recursiveIterator = new RecursiveIteratorIterator($directoryIterator, RecursiveIteratorIterator::CHILD_FIRST);
