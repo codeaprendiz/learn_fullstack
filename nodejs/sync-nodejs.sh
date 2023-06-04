@@ -3,6 +3,7 @@
 TARGET_STATE_DIRECTORY="$HOME/workspace/Frontend-Backend-DevOps/learn-nodejs"
 DIRECTORY_THAT_REQUIRES_SYNC="$HOME/workspace/codeaprendiz/learn-fullstack/nodejs"
 
+
 # Use the rsync command to sync the directories
 # --delete option deletes files that don't exist in source directory
 # --exclude option to exclude the .git folder
