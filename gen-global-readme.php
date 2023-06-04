@@ -78,8 +78,6 @@ function createGlobalglobal_readme($languages) {
     file_put_contents('Readme.md', $global_readme);
 }
 
-$batchDirectories = getDirectories('.', '/task-/');
-// echo '<pre>'; print_r($batchDirectories); echo '</pre>';
 createGlobalglobal_readme($languages);
 
 ?>
