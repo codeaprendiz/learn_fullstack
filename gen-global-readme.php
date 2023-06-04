@@ -61,9 +61,6 @@ function createGlobalglobal_readme($languages) {
             
             $taskName = substr($taskDirectory, strrpos($taskDirectory, '/') + 1);
             $global_readme .= "- [" . $taskName . "](" . $taskDirectory . "/"  . ")\n";
-
-            // $taskName = str_replace('./', '', $taskDirectory);
-            // $global_readme .= "- [" . $taskName . "](" . $taskName . "/"  . ")\n";
         }
     }
 
