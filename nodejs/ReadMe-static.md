@@ -12,10 +12,15 @@
 
 ### Bootstrap Links
 
+- [getting-started](https://getbootstrap.com/docs/3.3/getting-started/)
 - [Bootstrap - v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [containers](https://getbootstrap.com/docs/5.3/layout/containers/)
 - [jumbotron](https://getbootstrap.com/docs/5.3/migration/#jumbotron)
 - [input](https://getbootstrap.com/docs/5.2/forms/input-group/#basic-example)
+
+### Bootstrap Icons
+
+- [icons.getbootstrap.com](https://icons.getbootstrap.com)
 
 ### Jquery
 

@@ -237,9 +237,9 @@ $batchDirectories = getDirectories('.', '/batch-/');
 The following part can be uncommented when you want the script to make changes.
 * ****************************************************************************/
 
-// $start_task_number = 79;
-// $increment_by = 10;
-// $stop_task_number = 112;
+// $start_task_number = 77;
+// $increment_by = 25;
+// $stop_task_number = 110;
 // incrementTasks($start_task_number, $increment_by, $stop_task_number, $taskDirectories);
 
 
@@ -254,6 +254,9 @@ The following part can be uncommented when you want the script to make changes.
 /* ****************************************************************************************
 End of uncommentable part.
 * ****************************************************************************************/
+
+
+// The following is used to generate the ReadMe.md file
 
 $content = "## Tasks\n\n";
 
