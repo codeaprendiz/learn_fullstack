@@ -8,6 +8,7 @@ $languages = array(
     "javascript",
     "nodejs",
     "reactjs",
+    "python",
 );
 
 function getDirectories($directoryPath, $pattern) {

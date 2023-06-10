@@ -1,6 +1,6 @@
 # Learn Fullstack
 
->Total number of tasks: 306
+>Total number of tasks: 310
 
 ## Languages
 
@@ -11,6 +11,7 @@ Click on individual language for more detailed information
 - [javascript](javascript)
 - [nodejs](nodejs)
 - [reactjs](reactjs)
+- [python](python)
 
 ## css
 
@@ -261,40 +262,44 @@ Click on individual language for more detailed information
 - [task-074-creating-and-testing-api-endpoint](./nodejs/taskset/batch-4--050-076/task-074-creating-and-testing-api-endpoint/)
 - [task-075-add-client-side-javascript](./nodejs/taskset/batch-4--050-076/task-075-add-client-side-javascript/)
 - [task-076-updating-the-page-from-rest](./nodejs/taskset/batch-4--050-076/task-076-updating-the-page-from-rest/)
-- [task-077-dbs-maxcoin-shopper](./nodejs/taskset/batch-5--077-093/task-077-dbs-maxcoin-shopper/)
-- [task-078-dbs-maxcoin-shopper-insert-data](./nodejs/taskset/batch-5--077-093/task-078-dbs-maxcoin-shopper-insert-data/)
-- [task-079-dbs-query-data](./nodejs/taskset/batch-5--077-093/task-079-dbs-query-data/)
-- [task-080-dbs-add-mongodb-and-mongoose](./nodejs/taskset/batch-5--077-093/task-080-dbs-add-mongodb-and-mongoose/)
-- [task-081-define-first-schema-and-model](./nodejs/taskset/batch-5--077-093/task-081-define-first-schema-and-model/)
-- [task-082-dbs-prepare-item-management-system](./nodejs/taskset/batch-5--077-093/task-082-dbs-prepare-item-management-system/)
-- [task-083-implement-all-database-methods](./nodejs/taskset/batch-5--077-093/task-083-implement-all-database-methods/)
-- [task-084-implement-user-management](./nodejs/taskset/batch-5--077-093/task-084-implement-user-management/)
-- [task-085-use-node-js-with-redis](./nodejs/taskset/batch-5--077-093/task-085-use-node-js-with-redis/)
-- [task-086-redis-to-shopper](./nodejs/taskset/batch-5--077-093/task-086-redis-to-shopper/)
-- [task-087-session-management-in-express-using-redis](./nodejs/taskset/batch-5--077-093/task-087-session-management-in-express-using-redis/)
-- [task-088-implement-a-basket-service-with-sessions](./nodejs/taskset/batch-5--077-093/task-088-implement-a-basket-service-with-sessions/)
-- [task-089-add-basket-to-page](./nodejs/taskset/batch-5--077-093/task-089-add-basket-to-page/)
-- [task-090-nodejs-with-mysql](./nodejs/taskset/batch-5--077-093/task-090-nodejs-with-mysql/)
-- [task-091-mysql-and-sequalize](./nodejs/taskset/batch-5--077-093/task-091-mysql-and-sequalize/)
-- [task-092-create-sequalize-models](./nodejs/taskset/batch-5--077-093/task-092-create-sequalize-models/)
-- [task-093-implement-order-service](./nodejs/taskset/batch-5--077-093/task-093-implement-order-service/)
-- [task-094-express-essentials-server-and-project](./nodejs/taskset/batch-6--094-104/task-094-express-essentials-server-and-project/)
-- [task-095-mock-data-served](./nodejs/taskset/batch-6--094-104/task-095-mock-data-served/)
-- [task-096-http-methods-and-routes](./nodejs/taskset/batch-6--094-104/task-096-http-methods-and-routes/)
-- [task-097-basic-datapoint](./nodejs/taskset/batch-6--094-104/task-097-basic-datapoint/)
-- [task-098-static-files](./nodejs/taskset/batch-6--094-104/task-098-static-files/)
-- [task-099-routing-parameters](./nodejs/taskset/batch-6--094-104/task-099-routing-parameters/)
-- [task-100-route-handlers](./nodejs/taskset/batch-6--094-104/task-100-route-handlers/)
-- [task-101-common-methods-express-routing](./nodejs/taskset/batch-6--094-104/task-101-common-methods-express-routing/)
-- [task-102-route-chaining-express](./nodejs/taskset/batch-6--094-104/task-102-route-chaining-express/)
-- [task-103-built-in-middleware-with-express](./nodejs/taskset/batch-6--094-104/task-103-built-in-middleware-with-express/)
-- [task-104-handling-errors](./nodejs/taskset/batch-6--094-104/task-104-handling-errors/)
-- [task-105-connecting-to-mongodb](./nodejs/taskset/batch-7--105-110/task-105-connecting-to-mongodb/)
-- [task-106-adding-mongoose-to-express-prj](./nodejs/taskset/batch-7--105-110/task-106-adding-mongoose-to-express-prj/)
-- [task-107-creating-user-schema-with-mongoose](./nodejs/taskset/batch-7--105-110/task-107-creating-user-schema-with-mongoose/)
-- [task-108-using-bcrypt-to-hash](./nodejs/taskset/batch-7--105-110/task-108-using-bcrypt-to-hash/)
-- [task-109-creating-user-registration-route](./nodejs/taskset/batch-7--105-110/task-109-creating-user-registration-route/)
-- [task-110-adding-cookies-sessions](./nodejs/taskset/batch-7--105-110/task-110-adding-cookies-sessions/)
+- [task-077-sass-setup](./nodejs/taskset/batch-5-077-0xx/task-077-sass-setup/)
+- [task-078-customizing-bootstrap](./nodejs/taskset/batch-5-077-0xx/task-078-customizing-bootstrap/)
+- [task-079-file-structure](./nodejs/taskset/batch-5-077-0xx/task-079-file-structure/)
+- [task-080-the-navbar-section](./nodejs/taskset/batch-5-077-0xx/task-080-the-navbar-section/)
+- [task-102-dbs-maxcoin-shopper](./nodejs/taskset/batch-6--102-118/task-102-dbs-maxcoin-shopper/)
+- [task-103-dbs-maxcoin-shopper-insert-data](./nodejs/taskset/batch-6--102-118/task-103-dbs-maxcoin-shopper-insert-data/)
+- [task-104-dbs-query-data](./nodejs/taskset/batch-6--102-118/task-104-dbs-query-data/)
+- [task-105-dbs-add-mongodb-and-mongoose](./nodejs/taskset/batch-6--102-118/task-105-dbs-add-mongodb-and-mongoose/)
+- [task-106-define-first-schema-and-model](./nodejs/taskset/batch-6--102-118/task-106-define-first-schema-and-model/)
+- [task-107-dbs-prepare-item-management-system](./nodejs/taskset/batch-6--102-118/task-107-dbs-prepare-item-management-system/)
+- [task-108-implement-all-database-methods](./nodejs/taskset/batch-6--102-118/task-108-implement-all-database-methods/)
+- [task-109-implement-user-management](./nodejs/taskset/batch-6--102-118/task-109-implement-user-management/)
+- [task-110-use-node-js-with-redis](./nodejs/taskset/batch-6--102-118/task-110-use-node-js-with-redis/)
+- [task-111-redis-to-shopper](./nodejs/taskset/batch-6--102-118/task-111-redis-to-shopper/)
+- [task-112-session-management-in-express-using-redis](./nodejs/taskset/batch-6--102-118/task-112-session-management-in-express-using-redis/)
+- [task-113-implement-a-basket-service-with-sessions](./nodejs/taskset/batch-6--102-118/task-113-implement-a-basket-service-with-sessions/)
+- [task-114-add-basket-to-page](./nodejs/taskset/batch-6--102-118/task-114-add-basket-to-page/)
+- [task-115-nodejs-with-mysql](./nodejs/taskset/batch-6--102-118/task-115-nodejs-with-mysql/)
+- [task-116-mysql-and-sequalize](./nodejs/taskset/batch-6--102-118/task-116-mysql-and-sequalize/)
+- [task-117-create-sequalize-models](./nodejs/taskset/batch-6--102-118/task-117-create-sequalize-models/)
+- [task-118-implement-order-service](./nodejs/taskset/batch-6--102-118/task-118-implement-order-service/)
+- [task-119-express-essentials-server-and-project](./nodejs/taskset/batch-7--119-129/task-119-express-essentials-server-and-project/)
+- [task-120-mock-data-served](./nodejs/taskset/batch-7--119-129/task-120-mock-data-served/)
+- [task-121-http-methods-and-routes](./nodejs/taskset/batch-7--119-129/task-121-http-methods-and-routes/)
+- [task-122-basic-datapoint](./nodejs/taskset/batch-7--119-129/task-122-basic-datapoint/)
+- [task-123-static-files](./nodejs/taskset/batch-7--119-129/task-123-static-files/)
+- [task-124-routing-parameters](./nodejs/taskset/batch-7--119-129/task-124-routing-parameters/)
+- [task-125-route-handlers](./nodejs/taskset/batch-7--119-129/task-125-route-handlers/)
+- [task-126-common-methods-express-routing](./nodejs/taskset/batch-7--119-129/task-126-common-methods-express-routing/)
+- [task-127-route-chaining-express](./nodejs/taskset/batch-7--119-129/task-127-route-chaining-express/)
+- [task-128-built-in-middleware-with-express](./nodejs/taskset/batch-7--119-129/task-128-built-in-middleware-with-express/)
+- [task-129-handling-errors](./nodejs/taskset/batch-7--119-129/task-129-handling-errors/)
+- [task-130-connecting-to-mongodb](./nodejs/taskset/batch-8--130-135/task-130-connecting-to-mongodb/)
+- [task-131-adding-mongoose-to-express-prj](./nodejs/taskset/batch-8--130-135/task-131-adding-mongoose-to-express-prj/)
+- [task-132-creating-user-schema-with-mongoose](./nodejs/taskset/batch-8--130-135/task-132-creating-user-schema-with-mongoose/)
+- [task-133-using-bcrypt-to-hash](./nodejs/taskset/batch-8--130-135/task-133-using-bcrypt-to-hash/)
+- [task-134-creating-user-registration-route](./nodejs/taskset/batch-8--130-135/task-134-creating-user-registration-route/)
+- [task-135-adding-cookies-sessions](./nodejs/taskset/batch-8--130-135/task-135-adding-cookies-sessions/)
 
 ## reactjs
 
@@ -332,3 +337,6 @@ Click on individual language for more detailed information
 - [task-026-modals-with-portals](./reactjs/taskset/task-026-modals-with-portals/)
 - [task-027-implementing-modals-with-portals](./reactjs/taskset/task-027-implementing-modals-with-portals/)
 - [task-028-context](./reactjs/taskset/task-028-context/)
+
+## python
+
