@@ -12,6 +12,7 @@ Click on individual language for more detailed information
 - [nodejs](nodejs)
 - [reactjs](reactjs)
 - [python](python)
+- [shell](shell)
 
 ## css
 
@@ -352,3 +353,6 @@ Click on individual language for more detailed information
 - [task_057_dockerhub](./python/task_057_dockerhub/)
 - [task_058_kubernetes](./python/task_058_kubernetes/)
 - [task_059_mongodb_atlas](./python/task_059_mongodb_atlas/)
+
+## shell
+
