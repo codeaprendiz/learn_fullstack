@@ -1,6 +1,6 @@
 # Learn Fullstack
 
->Total number of tasks: 322
+>Total number of tasks: 323
 
 ## Languages
 
@@ -13,6 +13,7 @@ Click on individual language for more detailed information
 - [reactjs](reactjs)
 - [python](python)
 - [shell](shell)
+- [php](php)
 
 ## css
 
@@ -356,3 +357,7 @@ Click on individual language for more detailed information
 
 ## shell
 
+
+## php
+
+- [task-001-php-multi-dimensional-arrays](./php/task-001-php-multi-dimensional-arrays/)
