@@ -1,6 +1,6 @@
 # Learn Fullstack
 
->Total number of tasks: 310
+>Total number of tasks: 322
 
 ## Languages
 
@@ -340,3 +340,15 @@ Click on individual language for more detailed information
 
 ## python
 
+- [task_001_numbers](./python/task_001_numbers/)
+- [task_002_simple_package](./python/task_002_simple_package/)
+- [task_050_emails](./python/task_050_emails/)
+- [task_051_jira](./python/task_051_jira/)
+- [task_052_utility](./python/task_052_utility/)
+- [task_053_slack](./python/task_053_slack/)
+- [task_054_SCMRepo](./python/task_054_SCMRepo/)
+- [task_055_github](./python/task_055_github/)
+- [task_056_jenkins](./python/task_056_jenkins/)
+- [task_057_dockerhub](./python/task_057_dockerhub/)
+- [task_058_kubernetes](./python/task_058_kubernetes/)
+- [task_059_mongodb_atlas](./python/task_059_mongodb_atlas/)

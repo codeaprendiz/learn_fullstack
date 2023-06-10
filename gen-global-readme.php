@@ -33,7 +33,9 @@ function getDirectories($directoryPath, $pattern) {
 function createGlobalglobal_readme($languages) {
     $global_readme = "# Learn Fullstack\n\n";
 
-    $taskDirectories = getDirectories('.', '/task-/');
+    $taskDirectories = array_merge(getDirectories('.', '/task-/'), getDirectories('.', '/task_/'));
+
+
     // echo '<pre>'; print_r($taskDirectories); echo '</pre>';
 
     // Print total number of tasks completed in the ReadMe.md file
