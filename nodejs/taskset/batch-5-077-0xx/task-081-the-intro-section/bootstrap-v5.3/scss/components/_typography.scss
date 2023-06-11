@@ -1,0 +1,20 @@
+@use '../custom' as *; // Importing everything from the 'custom' SCSS file.
+
+.display-2 {  // Defining a class named 'display-2'.
+    margin-bottom: 1rem; // Applying a bottom margin of 1rem to this class.
+    text-transform: capitalize; // Transforming the text to capitalize the first letter of each word.
+    font-family: 'Poppins', sans-serif; // Setting the font family to 'Poppins', with sans-serif as the fallback if 'Poppins' is not available.
+
+    &--intro { // Defining a modifier class 'display-2--intro' for 'display-2'.
+        display: inline-block; // Making the element with this class display as an inline-block.
+        font-weight: 700; // Setting the font weight to 700, making it bold.
+        font-family: 'Poppins', sans-serif; // Setting the font family to 'Poppins', with sans-serif as the fallback if 'Poppins' is not available.
+    }
+
+    &--description { // Defining a modifier class 'display-2--description' for 'display-2'.
+        font-size: 1.5rem; // Setting the font size to 1.5rem.
+        display: block; // Making the element with this class display as a block, occupying the full width of its parent container.
+        margin-top: 1.2rem; // Applying a top margin of 1.2rem to this class.
+        text-transform: none; // Making sure the text is not transformed, i.e., it retains its original case.
+    }
+}

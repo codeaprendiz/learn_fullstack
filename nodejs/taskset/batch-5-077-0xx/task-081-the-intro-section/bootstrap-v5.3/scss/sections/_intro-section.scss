@@ -1,0 +1,28 @@
+@use '../custom' as *; // Importing everything from the 'custom' SCSS file.
+@use '../components/mixins' as *; // Importing everything from the 'mixins' SCSS file.
+
+.intro-section { // Defining a class named 'intro-section'.
+    @include gradient; // Including a mixin named 'gradient' that defines a gradient style.
+    padding: 10rem 0 0 0; // Applying padding of 10rem to the top and no padding to the right, bottom and left sides.
+    width: 100%; // Setting the width of the element with this class to 100% of the parent container's width.
+    height: 100%; // Setting the height of the element with this class to 100% of the parent container's height.
+}
+
+.intros { // Defines a class 'intros'.
+    
+    .video-box { // Inside 'intros', defines another class 'video-box'.
+        position: relative; // Positions '.video-box' relative to its normal position.
+        a { // Targets anchor tags '<a>' within '.video-box'.
+
+            // @include absoluteCenter; // Includes a mixin named 'absoluteCenter' that defines a style for absolute centering.
+
+            span { // Targets '<span>' tags within '<a>'.
+
+                i { // Targets '<i>' tags within '<span>'.
+                    font-size: 6rem; // Sets the font size of text within '<i>' tags to 6rem.
+                    color: $secondary; // Sets the color of text within '<i>' tags to black, as defined by the $secondary variable.
+                }
+            }
+        }
+    }
+}

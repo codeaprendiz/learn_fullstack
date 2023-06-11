@@ -18,6 +18,14 @@
 - [jumbotron](https://getbootstrap.com/docs/5.3/migration/#jumbotron)
 - [input](https://getbootstrap.com/docs/5.2/forms/input-group/#basic-example)
 
+### Fonts
+
+- [fonts.google.com/specimen/Poppins?query=poppins](https://fonts.google.com/specimen/Poppins?query=poppins) (see task-081)
+
+### Images
+
+- [https://www.manypixels.co/gallery](https://www.manypixels.co/gallery) (see task-081)
+
 ### Bootstrap Icons
 
 - [icons.getbootstrap.com](https://icons.getbootstrap.com)
