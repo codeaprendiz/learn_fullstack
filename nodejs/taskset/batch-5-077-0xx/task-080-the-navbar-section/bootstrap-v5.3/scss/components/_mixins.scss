@@ -1,0 +1,9 @@
+@use '../custom' as * ;
+
+// GRADIENT MIXIN
+
+@mixin gradient {
+    // sets a linear gradient background for an element, 
+    // transitioning from a 95% opaque primary color to a 95% opaque secondary color, moving from left to right.
+    background: linear-gradient(to right, rgba($primary,0.95), rgba($secondary, 0.95));
+}

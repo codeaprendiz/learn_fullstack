@@ -1,0 +1,21 @@
+@use '../custom' as * ;
+@use '../components/mixins' as * ;
+
+.menu {
+    @include gradient;
+
+    // sets the padding for all list items (<li> elements), 
+    // applying 0 padding on the top and bottom, and 0.7 rem of padding on the left and right sides.
+    li {
+        padding: 0 0.7rem;
+        
+        //  styles "a" (anchor) elements with white color, capitalized text, and a font weight of 600.
+        // The !important rule in CSS is used to make a certain property and value the highest priority, meaning it will override other styles.
+        a {
+            color: $white !important;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}
+

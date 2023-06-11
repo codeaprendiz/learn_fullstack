@@ -12,10 +12,15 @@
 
 ### Bootstrap Links
 
+- [getting-started](https://getbootstrap.com/docs/3.3/getting-started/)
 - [Bootstrap - v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [containers](https://getbootstrap.com/docs/5.3/layout/containers/)
 - [jumbotron](https://getbootstrap.com/docs/5.3/migration/#jumbotron)
 - [input](https://getbootstrap.com/docs/5.2/forms/input-group/#basic-example)
+
+### Bootstrap Icons
+
+- [icons.getbootstrap.com](https://icons.getbootstrap.com)
 
 ### Jquery
 
@@ -122,6 +127,8 @@
 
 - [task-077-sass-setup](taskset/batch-5-077-0xx/task-077-sass-setup)
 - [task-078-customizing-bootstrap](taskset/batch-5-077-0xx/task-078-customizing-bootstrap)
+- [task-079-file-structure](taskset/batch-5-077-0xx/task-079-file-structure)
+- [task-080-the-navbar-section](taskset/batch-5-077-0xx/task-080-the-navbar-section)
 
 ### batch-6--102-118
 
