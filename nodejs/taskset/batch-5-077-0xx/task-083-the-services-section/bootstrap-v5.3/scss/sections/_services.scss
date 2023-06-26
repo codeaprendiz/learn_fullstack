@@ -1,0 +1,37 @@
+@use '../custom' as * ; // Import custom SCSS module for usage in this file.
+
+.services {
+    position: relative; // Set the positioning context for the services container.
+    padding: 1rem 0; // Apply vertical padding.
+
+    &__content {
+        padding: 1rem; // Apply padding to the content.
+        margin-top: 0rem; // Add top margin to the content. Will be used for smaler devices as we have breakpoints for large devices
+
+        p {
+            font-size: 0.8rem; // Set the font size for the paragraph. Will be used for small devices as we have breakpoints for large devices
+
+            @include media-breakpoint-up(lg) {
+                font-size: 1rem; // When the viewport is at least 'lg' (large) wide, set the font size for the paragraph to 1rem.
+            }
+        }
+       
+        @include media-breakpoint-up(lg) {
+            margin-top: 5rem; // When the viewport is at least 'lg' (large) wide, set the top margin to 5rem.
+        }
+
+        .icon {
+            font-size: 1.5rem; // Set the font size for the icons. Will be used for small devices as we have breakpoints for large devices
+            color: $primary; // Set the color for the icons to be the primary color.
+
+            @include media-breakpoint-up(lg) {
+                font-size: 2.5rem;  // When the viewport is at least 'lg' (large) wide, set the font size for the icons to 2.5rem.
+            }
+        }
+    }
+
+    
+    &__pic {
+        max-width: 100%; // Ensure the picture doesn't exceed its container width.
+    }
+}

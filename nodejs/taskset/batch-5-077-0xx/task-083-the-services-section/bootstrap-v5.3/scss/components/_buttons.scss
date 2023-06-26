@@ -1,0 +1,42 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+.btn-rounded { // This line includes a media query mixin that applies the contained styles (in this case, display: none;) ,  when the viewport is at a width of 'sm' or smaller. 
+   
+    @include media-breakpoint-down(sm) {  // TODO : RECHEAK || In effect, the .btn-rounded element will not be displayed on small screens or smaller.
+        display: none;
+    }
+
+    position: relative; // sets the position relative to their normal position. This is a basis for positioning properties (top, right, bottom, left) if they are used later.
+    padding: 0.9375rem 4.375rem 0.9375rem 1.25rem; // TODO RECHEAK ||  This provides padding to the button. The padding values are in the order of top, right, bottom, left. So, the button has a padding of 0.9375rem on the top and bottom, 4.375rem on the right, and 1.25rem on the left.
+    font-weight: 700; // sets the font weight of the text inside the .btn-rounded elements to 500, making it semi-bold.
+    margin: 0; // removes any external spacing around the .btn-rounded elements, ensuring they fit tightly in their container.
+    border: 0.1rem solid rgba($white, 0.6); // This creates a solid border around the button with a thickness of 0.1rem. The border color is a semi-transparent white (60% opacity).
+    background-color: $white;
+    display: block; // TODO RECHEAK || This sets the display property of the .btn-rounded element to block, which makes it a block-level element. This means that it will take up the full width of its parent element, and the next element will be displayed on a new line.
+
+    span {
+        position: absolute; // This positions the span element relative to the nearest positioned ancestor (instead of positioned relative to the viewport). In this case, it's positioned relative to the .btn-rounded parent because the parent is set with position: relative;.
+        background-color: $primary; // This sets the background color of the span element to whatever color is stored in the SCSS variable $primary.
+        width: 2.5rem; // This sets the width of the span element to 2.5rem (relative to the root font-size).
+        height: 2.5rem; // This sets the height of the span element to 2.5rem (relative to the root font-size). Because the height and width are equal, and the border-radius is set to 50%, this span will display as a circle.
+        top: 50%; // This moves the top edge of the span element to the middle of the .btn-rounded parent's height.
+        right: 5px; // This moves the span element 5px away from the right edge of the .btn-rounded parent's box.
+        transform: translateY(-50%); // This further adjusts the span element's position vertically. It shifts the span upwards by half of its own height, ensuring it is centered vertically in the parent .btn-rounded.
+        border-radius: 50%; // This gives the span a round shape, making it look like a circle if its width and height are equal
+
+        i {
+            color: $white; // This sets the color of the text within the i element to the value of the $white variable.
+            font-size: 1rem; //  This sets the size of the text within the i element to 1rem, relative to the root font-size.
+            line-height: 2.5rem; // This sets the height of each line of text within the i element to 2.5rem, hich can influence the vertical alignment of the text inside the i element.
+        }
+    }
+
+    &:hover {
+        @include gradient; // This line includes a mixin named "gradient" which defines a background gradient style. This will apply a gradient background when hovering over the .btn-rounded element.
+        color: $white; // This changes the text color within the .btn-rounded element to white when it's being hovered over.
+        
+        span { // This changes the background color of the span element within the .btn-rounded element to a semi-transparent black (60% opacity) when the .btn-rounded element is being hovered over.
+            background-color: rgba($black, 0.6);
+        }
+    }
+}

@@ -1,0 +1,47 @@
+@use '../custom' as *; // Importing everything from the 'custom' SCSS file.
+
+.display-2 {  // Defining a class named 'display-2'.
+    margin-bottom: 1rem; // Applying a bottom margin of 1rem to this class.
+    text-transform: capitalize; // Transforming the text to capitalize the first letter of each word.
+    font-family: 'Poppins', sans-serif; // Setting the font family to 'Poppins', with sans-serif as the fallback if 'Poppins' is not available.
+
+    &--intro { // Defining a modifier class 'display-2--intro' for 'display-2'.
+        display: inline-block; // Making the element with this class display as an inline-block.
+        font-weight: 700; // Setting the font weight to 700, making it bold.
+        font-family: 'Poppins', sans-serif; // Setting the font family to 'Poppins', with sans-serif as the fallback if 'Poppins' is not available.
+    }
+
+    &--description { // Defining a modifier class 'display-2--description' for 'display-2'.
+        font-size: 1rem; // Setting the font size to 1rem.
+        display: block; // Making the element with this class display as a block, occupying the full width of its parent container.
+        margin-top: 1.2rem; // Applying a top margin of 1.2rem to this class.
+        text-transform: none; // Making sure the text is not transformed, i.e., it retains its original case.
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1.4rem; // When the viewport is at least 'lg' (large) wide, increases the font size to 1.4rem.
+            display: inline-block; // Also when viewport is at least 'lg' (large) wide, changes the display to inline-block, allowing elements to sit side by side.
+        }
+    }
+}
+
+// HEADING LINE
+
+.heading-line::before {
+    content: ""; // Creates a pseudo-element and sets its content to an empty string.
+    width: 10rem; // Sets the width of the pseudo-element to 10rem.
+    height: 0.1rem; // Sets the height of the pseudo-element to 0.1rem.
+    display: block; // The pseudo-element is displayed as a block element, taking up the full width its parent allows.
+    margin: 0 auto; // Centers the pseudo-element horizontally within its parent.
+    background-color: $primary; // Sets the background color of the pseudo-element as specified in the $primary variable.
+}
+
+.heading-line::after {
+    content: ""; // Creates a pseudo-element and sets its content to an empty string.
+    width: 2rem; // Sets the width of the pseudo-element to 2rem.
+    height: 0.2rem; // Sets the height of the pseudo-element to 0.2rem.
+    padding-top: 0.5rem; // Applies a top padding of 0.5rem to the pseudo-element.
+    display: block; // The pseudo-element is displayed as a block element, taking up the full width its parent allows.
+    margin: 0 auto; // Centers the pseudo-element horizontally within its parent.
+    margin-bottom: 1rem; // Applies a bottom margin of 1rem to the pseudo-element.
+    background-color: $primary; // Sets the background color of the pseudo-element as specified in the $primary variable.
+}

@@ -1,0 +1,13 @@
+// PULSE BORDER
+
+@keyframes pulse-border { // Defines a set of animation keyframes named 'pulse-border'.
+    0% { // At the start of the animation (0% progression).
+      transform: scale(1); // The element maintains its original scale.
+      opacity: 1; // The element is fully visible.
+    }
+
+    100% { // At the end of the animation (100% progression).
+      transform: scale(1.5); // The element increases its scale by 1.5 times its original size.
+      opacity: 0; // The element is completely transparent.
+    }
+  }

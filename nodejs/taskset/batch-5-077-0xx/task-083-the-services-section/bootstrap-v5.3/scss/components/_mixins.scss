@@ -1,0 +1,14 @@
+@use '../custom' as * ;
+
+// GRADIENT MIXIN
+@mixin gradient { // Defining a mixin named 'gradient'.
+    background: linear-gradient(to right, rgba($primary,0.95), rgba($secondary, 0.95)); // sets a linear gradient background for an element, transitioning from a 95% opaque primary color to a 95% opaque secondary color, moving from left to right.
+}
+
+// ABSOLUTE CENTER MIXIN
+@mixin absoluteCenter { // Defining a mixin named 'absoluteCenter'.
+    position: absolute; // The element is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport).
+    top: 50%; // Position the element 50% down from the top of its container.
+    left: 50%; // Position the element 50% across from the left of its container.
+    transform: translate(-50%, -50%); // Moves the element back along the x and y axis by 50%, effectively centering the element within its container.
+}

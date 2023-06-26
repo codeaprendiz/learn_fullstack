@@ -1,0 +1,44 @@
+@use '../custom' as *; // Importing everything from the 'custom' SCSS file.
+@use '../components/mixins' as *; // Importing everything from the 'mixins' SCSS file.
+
+.intro-section { // Defining a class named 'intro-section'.
+    @include gradient; // Including a mixin named 'gradient' that defines a gradient style.
+    padding: 10rem 0 0 0; // Applying padding of 10rem to the top and no padding to the right, bottom and left sides.
+    width: 100%; // Setting the width of the element with this class to 100% of the parent container's width.
+    height: 100%; // Setting the height of the element with this class to 100% of the parent container's height.
+}
+
+.intros { // Defines a class 'intros'.
+    .video-box { // Inside 'intros', defines another class 'video-box'.
+        position: relative; // Positions '.video-box' relative to its normal position.
+        a { // Targets anchor tags '<a>' within '.video-box'.
+            // @include absoluteCenter; // Includes a mixin named 'absoluteCenter' that defines a style for absolute centering.
+            span { // Targets '<span>' tags within '<a>'.
+
+                i { // Targets '<i>' tags within '<span>'.
+                    font-size: 6rem; // Sets the font size of text within '<i>' tags to 6rem.
+                    color: $secondary; // Sets the color of text within '<i>' tags to black, as defined by the $secondary variable.
+                }
+            }
+        }
+    }
+}
+
+.border-animation { // Defines a class named 'border-animation'.
+    position: absolute; // The element is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport).
+    top: 0; // Position the element at the top of its container.
+    left: 0; // Position the element at the left of its container.
+    width: 6rem; // Sets the width of the element to 6rem.
+    height: 6rem; // Sets the height of the element to 6rem.
+    border: 0.55rem solid $white; // Sets a border of 0.55rem with solid style and color as specified in the $white variable.
+    border-radius: 50%; // Rounds the corners of the border to create a circular or elliptical shape.
+    animation: pulse-border 1.5s linear infinite; // Applies the 'pulse-border' animation to the element, with a duration of 1.5s, a linear speed curve, and repeating infinitely.
+
+    &--border-1 {
+        animation-delay: 1s; // For elements with the class 'border-animation--border-1', delays the start of the animation by 1s.
+    }
+
+    &--border-2 {
+        animation-delay: 1.5s; // For elements with the class 'border-animation--border-2', delays the start of the animation by 1.5s.
+    }
+}

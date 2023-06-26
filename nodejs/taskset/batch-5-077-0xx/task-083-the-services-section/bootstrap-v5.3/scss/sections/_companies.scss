@@ -1,0 +1,21 @@
+.companies {
+    padding: 0 0 5rem 0; // Applies padding of 5rem to the bottom side of the element, with no padding on the top, right, or left.
+
+    &__logo-box {
+        max-width: 100%; // Limits the maximum width of the element to 100% of its parent's width.
+        height: 3rem; // Sets the height of the element to 3rem.
+        margin-bottom: 2rem; // Applies a bottom margin of 2rem to the element.
+        padding: 0.5rem; // Applies a padding of 0.5rem to all sides of the element.
+        text-align: center; // Centers the text within the element.
+        position: relative; // Sets the position of the element to relative, meaning any absolutely positioned children will position relative to this element.
+        
+        img {
+            height: 100%; // Sets the height of any img element within the current element to 100% of its parent's height.
+
+            &:hover {  // Selecting the hover state of the parent selector.
+                filter: grayscale(120); // When an img element is hovered over, applies a grayscale filter with an intensity of 120 (which will be interpreted as 100%).
+            }
+            
+        }
+    }
+}

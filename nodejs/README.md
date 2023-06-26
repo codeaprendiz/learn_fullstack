@@ -9,6 +9,7 @@
 - [express](https://expressjs.com)
 - [express application generator](https://expressjs.com/en/starter/generator.html)
 - [express template engines](https://expressjs.com/en/resources/template-engines.html)  (See Task - 054)
+- [glightbox](https://www.npmjs.com/package/glightbox)  (See Task - 081, helps in playing videos)
 
 ### Bootstrap Links
 
@@ -18,6 +19,18 @@
 - [jumbotron](https://getbootstrap.com/docs/5.3/migration/#jumbotron)
 - [input](https://getbootstrap.com/docs/5.2/forms/input-group/#basic-example)
 
+### Fonts
+
+- [fonts.google.com/specimen/Poppins?query=poppins](https://fonts.google.com/specimen/Poppins?query=poppins) (see task-081)
+
+### Images
+
+### Waves and Effects
+
+- [https://getwaves.io](https://getwaves.io) (see task-081)
+
+- [https://www.manypixels.co/gallery](https://www.manypixels.co/gallery) (see task-081)
+
 ### Bootstrap Icons
 
 - [icons.getbootstrap.com](https://icons.getbootstrap.com)
@@ -26,12 +39,17 @@
 
 - [releases.jquery.com](https://releases.jquery.com)
 
-## Extensions for VS Code
+### Extensions for VS Code
 
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)  (See Task - 052)
 - [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (See Task - 052)
 - [EJS language support](https://marketplace.visualstudio.com/items?itemName=DigitalBrainstem.javascript-ejs-support)   (See Task - 055)
+
+### Conceptual Tasks
+
+- The `&--` and `&__` syntax is used in SCSS/SASS for nesting styles. (See Task - 083)
+
 
 ## Tasks
 
@@ -129,6 +147,9 @@
 - [task-078-customizing-bootstrap](taskset/batch-5-077-0xx/task-078-customizing-bootstrap)
 - [task-079-file-structure](taskset/batch-5-077-0xx/task-079-file-structure)
 - [task-080-the-navbar-section](taskset/batch-5-077-0xx/task-080-the-navbar-section)
+- [task-081-the-intro-section](taskset/batch-5-077-0xx/task-081-the-intro-section)
+- [task-082-the-companies-section](taskset/batch-5-077-0xx/task-082-the-companies-section)
+- [task-083-the-services-section](taskset/batch-5-077-0xx/task-083-the-services-section)
 
 ### batch-6--102-118
 

@@ -12,9 +12,14 @@
     }
 
     &--description { // Defining a modifier class 'display-2--description' for 'display-2'.
-        font-size: 1.5rem; // Setting the font size to 1.5rem.
+        font-size: 1rem; // Setting the font size to 1rem.
         display: block; // Making the element with this class display as a block, occupying the full width of its parent container.
         margin-top: 1.2rem; // Applying a top margin of 1.2rem to this class.
         text-transform: none; // Making sure the text is not transformed, i.e., it retains its original case.
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1.4rem; // When the viewport is at least 'lg' (large) wide, increases the font size to 1.4rem.
+            display: inline-block; // Also when viewport is at least 'lg' (large) wide, changes the display to inline-block, allowing elements to sit side by side.
+        }
     }
 }
