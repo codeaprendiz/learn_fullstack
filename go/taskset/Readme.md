@@ -1,4 +1,8 @@
 
+```bash
+alias g='git add --all;git commit -m "chore: update";git push -u origin main'
+```
+
 [golang.org/](https://golang.org/)
 [doc](https://golang.org/doc)
 [godoc.org](https://pkg.go.dev/)

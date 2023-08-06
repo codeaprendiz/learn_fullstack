@@ -1,3 +1,7 @@
+# Custom Types
+
+## Run
+
 - Run the following command
 
 ```bash
