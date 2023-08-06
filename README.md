@@ -1,6 +1,6 @@
 # Learn Fullstack
 
->Total number of tasks: 323
+>Total number of tasks: 326
 
 ## Languages
 
@@ -268,6 +268,9 @@ Click on individual language for more detailed information
 - [task-078-customizing-bootstrap](./nodejs/taskset/batch-5-077-0xx/task-078-customizing-bootstrap/)
 - [task-079-file-structure](./nodejs/taskset/batch-5-077-0xx/task-079-file-structure/)
 - [task-080-the-navbar-section](./nodejs/taskset/batch-5-077-0xx/task-080-the-navbar-section/)
+- [task-081-the-intro-section](./nodejs/taskset/batch-5-077-0xx/task-081-the-intro-section/)
+- [task-082-the-companies-section](./nodejs/taskset/batch-5-077-0xx/task-082-the-companies-section/)
+- [task-083-the-services-section](./nodejs/taskset/batch-5-077-0xx/task-083-the-services-section/)
 - [task-102-dbs-maxcoin-shopper](./nodejs/taskset/batch-6--102-118/task-102-dbs-maxcoin-shopper/)
 - [task-103-dbs-maxcoin-shopper-insert-data](./nodejs/taskset/batch-6--102-118/task-103-dbs-maxcoin-shopper-insert-data/)
 - [task-104-dbs-query-data](./nodejs/taskset/batch-6--102-118/task-104-dbs-query-data/)
