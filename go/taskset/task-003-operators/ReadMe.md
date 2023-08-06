@@ -1,11 +1,5 @@
 # Operators
 
-<<<<<<< Updated upstream
-## Output
-
-```bash
-$ go run operators.go                             
-=======
 ## Explaination
 
 In Go, operators are special symbols or keywords that perform operations on variables and values. The provided program demonstrates the use of arithmetic operators in Go. Let's briefly explain each operator:
@@ -33,18 +27,6 @@ func main() {
 }
 ```
 
-The program prints the result of arithmetic operations using the arithmetic operators:
-
-```
->>>>>>> Stashed changes
-10 + 2 =  12
-10 - 2 =  8
-10 / 2 =  5
-10 - 2 =  8
-```
-<<<<<<< Updated upstream
-=======
-
 Here's a breakdown of each line:
 
 - `fmt.Printf("10 + 2 =  %v\n", 10 + 2)`: The expression `10 + 2` is evaluated, and the result (`12`) is substituted in the format string at `%v`. This line prints `10 + 2 = 12`.
@@ -71,4 +53,3 @@ $ go run operators.go
 $ go run operators-v2.go 
 Addition : 10 + 2 = 12
 ```
->>>>>>> Stashed changes
