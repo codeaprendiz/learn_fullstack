@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main_v1() {
 	colors := map[string]string{
 		"red":   "#ff0000",
 		"green": "#4bf745",
@@ -14,9 +14,9 @@ func main() {
 
 	printMap(colors)
 
-	m := map[string]int {
-		"James" : 1,
-		"Falcon" : 2,
+	m := map[string]int{
+		"James":  1,
+		"Falcon": 2,
 	}
 
 	v, ok := m["fakeKey"]
@@ -27,15 +27,15 @@ func main() {
 		fmt.Println("James key is present")
 	}
 
-	m["Todd"]=3
+	m["Todd"] = 3
 
-	for k,v := range m {
-		fmt.Println(k,v)
+	for k, v := range m {
+		fmt.Println(k, v)
 	}
 
-	delete(m,"Todd")
+	delete(m, "Todd")
 
-	fmt.Println("Map after deleting Todd" , m)
+	fmt.Println("Map after deleting Todd", m)
 }
 
 func printMap(c map[string]string) {

@@ -62,7 +62,7 @@ func bar(h human) {
 }
 
 // Main function where the execution of program begins
-func main() {
+func main_v1() {
 	eb := englishBot{} // creates an instance of englishBot
 	sb := spanishBot{} // creates an instance of spanishBot
 

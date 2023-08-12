@@ -9,7 +9,7 @@ import (
 
 type logWriter struct{}
 
-func main() {
+func main_v1() {
 	resp, err := http.Get("http://google.com")
 	if err != nil {
 		fmt.Println("Error:", err)
