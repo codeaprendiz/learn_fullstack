@@ -2,41 +2,36 @@ package main
 
 import (
 	"fmt"
-	"net/http"
 	"time"
 )
 
-func main() {
-	links := []string{
-		"http://google.com",
-		"http://facebook.com",
-		"http://stackoverflow.com",
-		"http://golang.org",
-		"http://amazon.com",
+func main_v1() {
+	// List of toys to be assembled.
+	toys := []string{"car", "robot", "doll", "lego"}
+
+	// Create a channel (conveyor belt).
+	conveyorBelt := make(chan string)
+
+	// Start the assembly line.
+	for _, toy := range toys {
+		go worker(toy, conveyorBelt)
 	}
 
-	c := make(chan string)
-
-	for _, link := range links {
-		go checkLink(link, c)
-	}
-
-	for l := range c {
-		go func(link string) {
-			time.Sleep(5 * time.Second)
-			checkLink(link, c)
-		}(l)
+	// Packaging department collects toys from the conveyor belt.
+	for range toys {
+		packagingDept(conveyorBelt)
 	}
 }
 
-func checkLink(link string, c chan string) {
-	_, err := http.Get(link)
-	if err != nil {
-		fmt.Println(link, "might be down!")
-		c <- link
-		return
-	}
+// Worker assembles a toy and places it on the conveyor belt.
+func worker(toy string, belt chan string) {
+	fmt.Println("Assembling:", toy)
+	time.Sleep(2 * time.Second) // Simulate time taken to assemble.
+	belt <- toy
+}
 
-	fmt.Println(link, "is up!")
-	c <- link
+// Packaging department takes the toy from the conveyor belt and packages it.
+func packagingDept(belt chan string) {
+	packagedToy := <-belt
+	fmt.Println("Packaged:", packagedToy)
 }

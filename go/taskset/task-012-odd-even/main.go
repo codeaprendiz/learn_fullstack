@@ -3,18 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("This is odd even program")
 
-	foo()
-	
-	for i:=0; i<10; i++ {
+	for i := 0; i < 10; i++ {
 		if i%2 == 0 {
-			fmt.Println(i)
+			fmt.Println(i, " is even")
+		} else {
+			fmt.Println(i, " is odd")
 		}
-
 	}
-}
 
-func foo() {
-	fmt.Println("This is function foo")
 }
