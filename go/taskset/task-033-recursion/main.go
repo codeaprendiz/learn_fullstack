@@ -1,4 +1,4 @@
-package main 
+package main
 
 import "fmt"
 
@@ -7,9 +7,11 @@ func main() {
 }
 
 func factorial(x int) int {
-	if x==1 {
+	if x == 1 {
+		fmt.Println("x is 1 now")
 		return 1
 	} else {
-		return x* factorial(x-1)
+		fmt.Println("x is : ", x)
+		return x * factorial(x-1)
 	}
 }
