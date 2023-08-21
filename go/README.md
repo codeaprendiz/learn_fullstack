@@ -1,6 +1,6 @@
 # Learn Go
 
->Total number of tasks: 61
+>Total number of tasks: 59
 
 ## TaskSet
 
@@ -60,8 +60,6 @@
 - [task-053-printing-logging](./taskset/task-053-printing-logging)
 - [task-054-reading-writing-files-using-pointers](./taskset/task-054-reading-writing-files-using-pointers)
 - [task-055-simple-web-server](./taskset/task-055-simple-web-server)
-- [task-056-rest-api-gorilla-mix-postgres](./taskset/task-056-rest-api-gorilla-mix-postgres)
-- [task-057-creating-packages](./taskset/task-057-creating-packages)
-- [task-058-importing-local-package](./taskset/task-058-importing-local-package)
-- [task-059-importing-global-packages](./taskset/task-059-importing-global-packages)
-- [task-060-testing](./taskset/task-060-testing)
+- [task-056-importing-local-package](./taskset/task-056-importing-local-package)
+- [task-057-importing-global-packages](./taskset/task-057-importing-global-packages)
+- [task-058-testing](./taskset/task-058-testing)
