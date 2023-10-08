@@ -49,3 +49,15 @@
 ### Conceptual Tasks
 
 - The `&--` and `&__` syntax is used in SCSS/SASS for nesting styles. (See Task - 083)
+
+### Tools
+
+- [github.com » nvm](https://github.com/nvm-sh/nvm#git-install)
+
+    ```bash
+    nvm install --lts
+    ```
+
+    ```bash
+    nvm use v18.18.0
+    ```
