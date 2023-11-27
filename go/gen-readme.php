@@ -24,7 +24,7 @@ function getDirectories($directoryPath, $pattern) {
 function createReadme() {
     $readme = "# Learn Go\n\n";
 
-    $taskDirectories = getDirectories('.', '/task-/');
+    $taskDirectories = getDirectories('.', '/task_/');
     // echo '<pre>'; print_r($taskDirectories); echo '</pre>';
 
     // Print total number of tasks completed in the ReadMe.md file

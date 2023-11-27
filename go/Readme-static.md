@@ -1,3 +1,11 @@
+# ReadMe Static
+
+- Rename folders
+
+```bash
+# Rename folders
+find . -depth -type d -name '*-*' | while read -r dir; do mv "$dir" "$(echo $dir | tr '-' '_')"; done
+```
 
 ```bash
 alias g='git add --all;git commit -m "chore: update";git push -u origin main'

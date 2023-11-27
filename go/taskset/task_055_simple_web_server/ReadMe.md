@@ -8,9 +8,9 @@ Certainly! Let's break down the provided code, which is a simple HTTP server usi
 package main
 
 import (
-	"fmt"
-	"log"
-	"net/http"
+  "fmt"
+  "log"
+  "net/http"
 )
 ```
 
@@ -24,7 +24,7 @@ This block of code defines the package name (`main`) and imports three packages:
 
 ```go
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[1:])
+  fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[1:])
 }
 ```
 
@@ -69,13 +69,13 @@ fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[1:])
 
 - `w http.ResponseWriter`: Represents the response that will be sent back to the client. Specifically, it's an interface to the server's response.
 
-When you use `fmt.Fprintf(w, ...)`, you're not writing to the request. Instead, you're writing to the response. 
+When you use `fmt.Fprintf(w, ...)`, you're not writing to the request. Instead, you're writing to the response.
 
 `fmt.Fprintf` is a function that lets you format and write data to any `io.Writer`. In this context, `w http.ResponseWriter` is acting as that writer. Therefore, by using `fmt.Fprintf(w, ...)`, you're actually writing the formatted string directly to the HTTP response.
 
 So, to answer your question, we're reading from the request (`r *http.Request`) to get the URL path, and we're writing to the response (`w http.ResponseWriter`) to send the message back to the client.
 
-### how is the handler function fo r`/` i.e. `http.HandleFunc("/", handler)` also handlying for /anything?
+### how is the handler function for `/` i.e. `http.HandleFunc("/", handler)` also handlying for /anything?
 
 The behavior you're observing is due to how the `http.HandleFunc` function works with regards to URL patterns.
 
