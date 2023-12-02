@@ -1,5 +1,19 @@
 # Variable formatting
 
+[pkg.go.dev/fmt](https://pkg.go.dev/fmt)
+
+| Verb  | Description                                   | Example Usage                 |
+|-------|-----------------------------------------------|-------------------------------|
+| `%v`  | Default format for the value                  | `fmt.Printf("%v", value)`     |
+| `%+v` | Detailed format (structs include field names) | `fmt.Printf("%+v", struct)`   |
+| `%#v` | Go-syntax representation of the value         | `fmt.Printf("%#v", value)`    |
+| `%T`  | Type of the value                             | `fmt.Printf("%T", value)`     |
+| `%d`  | Integer in base 10                            | `fmt.Printf("%d", intVal)`    |
+| `%f`  | Floating-point number without exponent        | `fmt.Printf("%f", floatVal)`  |
+| `%s`  | String                                        | `fmt.Printf("%s", stringVal)` |
+| `%q`  | Double-quoted string safely escaped           | `fmt.Printf("%q", stringVal)` |
+| `%p`  | Pointer (address in base 16, with leading 0x) | `fmt.Printf("%p", &value)`    |
+
 ## Exlaination
 
 The given code illustrates how to format and print variables in Go using the `fmt` package. Let's break it down.

@@ -2,7 +2,7 @@
 
 ## Explaination
 
-Alright, let's delve into the code:
+let's delve into the code:
 
 ```go
 package main
@@ -41,7 +41,7 @@ This prints the value of `x`, which would output `-128`.
 // x = -129
 ```
 
-This commented-out line of code attempts to assign the value `-129` to `x`. However, this value is outside the range of what `int8` can store (as mentioned, `int8` can hold values from `-128` to `127`). 
+This commented-out line of code attempts to assign the value `-129` to `x`. However, this value is outside the range of what `int8` can store (as mentioned, `int8` can hold values from `-128` to `127`).
 
 If you were to uncomment and run this line, you would encounter a compile-time error due to integer overflow. The Go compiler is smart enough to catch this kind of error at compile time instead of allowing it to cause unpredictable behavior at runtime.
 
