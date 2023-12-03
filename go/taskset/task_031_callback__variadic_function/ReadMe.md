@@ -6,63 +6,63 @@ This program demonstrates the concept of **callback** and **variadic functions**
 
 1. **Initializing a Slice:**
 
-```go
-x := []int{1,2,3,4,5,6,7,8,9}
-```
+    ```go
+    x := []int{1,2,3,4,5,6,7,8,9}
+    ```
 
-A slice `x` of integers is initialized with numbers from 1 to 9.
+    A slice `x` of integers is initialized with numbers from 1 to 9.
 
 2. **Variadic Function - Sum:**
 
-```go
-func sum(x ...int) int {
-    ...
-}
-```
+    ```go
+    func sum(x ...int) int {
+        ...
+    }
+    ```
 
-`sum` is a variadic function. It takes a varying number of `int` arguments. Inside the function, these arguments are accessible as a slice of integers. The function calculates and returns the total of the numbers passed.
+    `sum` is a variadic function. It takes a varying number of `int` arguments. Inside the function, these arguments are accessible as a slice of integers. The function calculates and returns the total of the numbers passed.
 
 3. **Callback Function - Even:**
 
-```go
-func even(f func(xi ...int) int, vi ...int) int {
-    ...
-}
-```
+    ```go
+    func even(f func(xi ...int) int, vi ...int) int {
+        ...
+    }
+    ```
 
-The `even` function takes two sets of arguments: 
+    The `even` function takes two sets of arguments
 
-- A function `f` which takes a variable number of integers and returns an int.
-- A variable number of integers `vi`.
+    - A function `f` which takes a variable number of integers and returns an int.
+    - A variable number of integers `vi`.
 
-Inside the `even` function, it constructs a new slice `yi` which contains only the even numbers from `vi`. After constructing `yi`, it calls the function `f` passing `yi` as the argument and returns the result.
+    Inside the `even` function, it constructs a new slice `yi` which contains only the even numbers from `vi`. After constructing `yi`, it calls the function `f` passing `yi` as the argument and returns the result.
 
 4. **In the main function:**
 
-```go
-fmt.Println("The sum of slice is ", sum(x...))
-```
+    ```go
+    fmt.Println("The sum of slice is ", sum(x...))
+    ```
 
-This line calculates the sum of all numbers in the slice `x` and prints it. The output will be:
+    This line calculates the sum of all numbers in the slice `x` and prints it. The output will be:
 
-```bash
-Passed :  [1 2 3 4 5 6 7 8 9]
-The sum of slice is  45
-```
+    ```bash
+    Passed :  [1 2 3 4 5 6 7 8 9]
+    The sum of slice is  45
+    ```
 
 5. **Calculating the Sum of Even Numbers:**
 
-```go
-s2 := even(sum, x...)
-fmt.Println("The sum of only even numbers is ", s2)
-```
+    ```go
+    s2 := even(sum, x...)
+    fmt.Println("The sum of only even numbers is ", s2)
+    ```
 
-Here, we're passing the `sum` function and slice `x` to the `even` function. Inside `even`, it filters out the odd numbers from the slice, then uses the `sum` function to calculate the total of the remaining even numbers, and finally returns that total. The output will be:
+    Here, we're passing the `sum` function and slice `x` to the `even` function. Inside `even`, it filters out the odd numbers from the slice, then uses the `sum` function to calculate the total of the remaining even numbers, and finally returns that total. The output will be:
 
-```bash
-Passed :  [2 4 6 8]
-The sum of only even numbers is  20
-```
+    ```bash
+    Passed :  [2 4 6 8]
+    The sum of only even numbers is  20
+    ```
 
 ### Summary
 

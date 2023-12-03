@@ -1,4 +1,4 @@
-# Slice
+# Practice 1
 
 ## Explaination
 
@@ -56,6 +56,14 @@ fmt.Println(x)
 ```
 
 Go doesn't have a built-in delete function for slices. But you can achieve deletion using a combination of slicing and the `append` function. Here, the element at index `2` is removed. The output is `[1 2 4 5 6 7 8]`.
+
+The line `x = append(x[:2], x[3:]...)` is a way of deleting an element from a slice in Go, specifically the element at index 2. Let's break down what's happening:
+
+- `x[:2]`: This creates a slice of the first two elements of `x`. If `x` is `[1, 2, 3, 4, 5]`, this would be `[1, 2]`.
+- `x[3:]`: This creates a slice of all elements of `x` starting from index 3. With the same `x`, this would be `[4, 5]`.
+- `append(x[:2], x[3:]...)`: The `append` function is then used to concatenate these two slices. The `...` is a variadic argument syntax that allows a slice to be passed to `append`.
+
+So, if `x` is `[1, 2, 3, 4, 5]`, after this operation, `x` would be `[1, 2, 4, 5]`. The element at index 2 (which is `3`) has been removed.
 
 ## Using `make` to Create a Slice
 

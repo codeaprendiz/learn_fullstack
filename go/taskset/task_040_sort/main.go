@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	x := []int{9,8,7,6,5,4,3,2,1}
-	y := []string{"Abc","asdf","what is this", "programming"}
+	x := []int{9, 8, 7, 6, 5, 4, 3, 2, 1}
+	y := []string{"Abc", "asdf", "what is this", "programming"}
 
 	fmt.Println(x)
 	fmt.Println(y)
@@ -17,6 +17,4 @@ func main() {
 	sort.Strings(y)
 	fmt.Println(x)
 	fmt.Println(y)
-
-
 }

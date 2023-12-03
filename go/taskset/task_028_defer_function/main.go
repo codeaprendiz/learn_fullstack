@@ -1,11 +1,6 @@
 package main
- 
-import "fmt"
 
-func main() {
-	defer foo()
-	bar()
-}
+import "fmt"
 
 func foo() {
 	fmt.Println("I am foo")
@@ -13,4 +8,9 @@ func foo() {
 
 func bar() {
 	fmt.Println("I am bar")
+}
+
+func main() {
+	defer foo()
+	bar()
 }

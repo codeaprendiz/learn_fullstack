@@ -20,7 +20,7 @@ This is a simple function that prints "I am foo" when called.
 
 ```go
 func bar(s string) {
-	fmt.Println("I am bar taking argument " , s)
+    fmt.Println("I am bar taking argument " , s)
 }
 ```
 
@@ -30,7 +30,7 @@ This function takes a string argument and prints it alongside a message.
 
 ```go
 func woo(s string) string {
-	return fmt.Sprint("I am in woo ", s)
+    return fmt.Sprint("I am in woo ", s)
 }
 ```
 

@@ -31,7 +31,7 @@ This example demonstrates a classic use case for recursion to compute the factor
 3. **Execution Flow**:
    Calling `factorial(3)` triggers the following flow:
 
-   ```go
+   ```bash
    factorial(3) => 3 * factorial(2) 
                 => 3 * (2 * factorial(1))
                 => 3 * (2 * 1)
@@ -40,7 +40,7 @@ This example demonstrates a classic use case for recursion to compute the factor
 
    The console output will be:
 
-   ```
+   ```bash
    x is :  3
    x is :  2
    x is 1 now
@@ -51,7 +51,7 @@ This example demonstrates a classic use case for recursion to compute the factor
 4. **Final Output**:
    In the `main` function, the result of `factorial(3)` (which is 6) gets printed, so the final output will be:
 
-   ```
+   ```bash
    x is :  3
    x is :  2
    x is 1 now

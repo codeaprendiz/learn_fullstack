@@ -40,7 +40,7 @@ This example demonstrates the concept of closures in Go. Let's break it down ste
    fmt.Println(b()) // Prints 3: and again.
    ```
 
-   It's important to understand that `a` and `b` each have their own version of the `x` variable. This is why when `b` starts incrementing, it starts from `1` even though `a` has been called multiple times. 
+   It's important to understand that `a` and `b` each have their own version of the `x` variable. This is why when `b` starts incrementing, it starts from `1` even though `a` has been called multiple times.
 
 4. **Why does this happen?**: This behavior is a result of closures. In Go (and many other programming languages), a closure is a function value that references variables from outside its body. The function may access and assign to the referenced variables; in this sense, the function is "bound" to the variables. Each call to `incrementor` creates a new closure with its own bound variable `x`.
 

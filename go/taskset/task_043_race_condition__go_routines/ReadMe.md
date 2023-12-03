@@ -2,7 +2,7 @@
 
 ## Explaination
 
-Alright, let's break down this code:
+Let's break down this code:
 
 1. **Initialization and Information Print Statements**:
 
@@ -30,8 +30,8 @@ Alright, let's break down this code:
     for i := 0; i < gs; i++ {
         go func() { ... }()
     }
-
     ```
+
     Here, we declare a `sync.WaitGroup` and a constant `gs` set to 10. The program then increments the WaitGroup's counter by 10 (`wg.Add(gs)`) because we plan to launch 10 goroutines. Then, we start 10 goroutines inside the for loop.
 
 4. **Inside Each Goroutine**:
@@ -48,6 +48,7 @@ Alright, let's break down this code:
     For each goroutine:
     - It reads the value of `counter` into the local variable `v`.
     - It yields its processor time using `runtime.Gosched()`. This function allows the Go scheduler to run another goroutine, if any is waiting, making our race condition more pronounced.
+    - The `runtime.Gosched()` function in Go is used to yield the processor, allowing other goroutines to run. It's a way to tell the runtime scheduler to pause the current goroutine and give a chance to other goroutines to execute. In your code, when `runtime.Gosched()` is called within each goroutine, it signals the scheduler that it can temporarily switch to executing another goroutine. This can be useful in programs with concurrent execution where you want to ensure fair use of CPU time among multiple goroutines.
     - It increments the local variable `v`.
     - It writes the value back to the `counter`.
     - It prints the number of active goroutines.

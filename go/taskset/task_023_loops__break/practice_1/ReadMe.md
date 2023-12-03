@@ -1,4 +1,4 @@
-# Loops
+# Practice 1
 
 ## Explaination
 

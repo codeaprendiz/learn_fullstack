@@ -11,7 +11,6 @@ func main() {
 	fmt.Println(b())
 	fmt.Println(b())
 	fmt.Println(b())
-
 }
 
 func incrementor() func() int {
