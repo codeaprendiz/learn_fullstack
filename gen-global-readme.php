@@ -58,7 +58,7 @@ function createGlobalglobal_readme($languages) {
         foreach($taskDirectories as $taskDirectory) {
             // $taskDirectory is of form - [281] => ./reactjs/taskset/task-004-eslint-setup
             // if $taskDirectory does not contain the language string, continue
-            if (strpos($taskDirectory, "./".$language) === false) {
+            if (strpos($taskDirectory, "./".$language. "/") === false) {
                 continue;
             }
 

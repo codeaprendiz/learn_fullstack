@@ -1,0 +1,29 @@
+# Taken from https://github.com/spring-guides/gs-rest-service/blob/main/.gitignore
+*.DS_Store
+*.sw?
+.#*
+*#
+*~
+.classpath
+.project
+.settings
+bin
+build
+target
+dependency-reduced-pom.xml
+*.sublime-*
+/scratch
+.gradle
+README.html
+*.iml
+.idea
+
+# Maven Folders
+**/mvnw
+**/mvnw.cmd
+**/.mvn
+
+# Gradle Folders
+**/gradle
+**/gradlew
+**/gradlew.bat
