@@ -7,4 +7,4 @@
 - [task_001_building_an_application_with_spring_boot__mvn__unit_tests](./taskset/task_001_building_an_application_with_spring_boot__mvn__unit_tests)
 - [task_002_building_an_application_with_spring_boot__gradle_groovy__unit_tests](./taskset/task_002_building_an_application_with_spring_boot__gradle_groovy__unit_tests)
 - [task_003_building_an_application_with_spring_boot__gradle_kotlin__unit_tests](./taskset/task_003_building_an_application_with_spring_boot__gradle_kotlin__unit_tests)
-- [task_004_maven_in_5_minutes](./taskset/task_004_maven_in_5_minutes)
+- [task_004_maven_in_five_minutes](./taskset/task_004_maven_in_five_minutes)
