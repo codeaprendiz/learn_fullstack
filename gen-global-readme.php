@@ -6,6 +6,7 @@ $languages = array(
     "css",
     "go",
     "javascript",
+    "java",
     "nodejs",
     "reactjs",
     "python",
