@@ -1,6 +1,6 @@
 # Learn Go
 
->Total number of tasks: 4
+>Total number of tasks: 5
 
 ## TaskSet
 
@@ -8,3 +8,4 @@
 - [task_002_building_an_application_with_spring_boot__gradle_groovy__unit_tests](./taskset/task_002_building_an_application_with_spring_boot__gradle_groovy__unit_tests)
 - [task_003_building_an_application_with_spring_boot__gradle_kotlin__unit_tests](./taskset/task_003_building_an_application_with_spring_boot__gradle_kotlin__unit_tests)
 - [task_004_maven_in_five_minutes](./taskset/task_004_maven_in_five_minutes)
+- [task_005_maven_in_thirty_minutes](./taskset/task_005_maven_in_thirty_minutes)
