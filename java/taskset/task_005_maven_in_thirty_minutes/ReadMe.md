@@ -1,5 +1,20 @@
 # [Maven in thirty minutes](https://maven.apache.org/guides/getting-started/index.html)
 
+- [Maven in thirty minutes](#maven-in-thirty-minutes)
+  - [How do I make my first Maven project?](#how-do-i-make-my-first-maven-project)
+  - [How do I compile my test sources and run my unit tests?](#how-do-i-compile-my-test-sources-and-run-my-unit-tests)
+  - [How do I create a JAR and install it in my local repository?](#how-do-i-create-a-jar-and-install-it-in-my-local-repository)
+  - [What is a SNAPSHOT version?](#what-is-a-snapshot-version)
+  - [How do I use plugins?](#how-do-i-use-plugins)
+  - [How do I add resources to my JAR?](#how-do-i-add-resources-to-my-jar)
+  - [How do I filter resource files?](#how-do-i-filter-resource-files)
+  - [How do I use external dependencies?](#how-do-i-use-external-dependencies)
+  - [How do I deploy my jar in my remote repository?](#how-do-i-deploy-my-jar-in-my-remote-repository)
+  - [How do I create documentation?](#how-do-i-create-documentation)
+  - [How do I build other types of projects?](#how-do-i-build-other-types-of-projects)
+  - [digitalocean.com » docs](#digitaloceancom--docs)
+
+
 ## [How do I make my first Maven project?](https://maven.apache.org/guides/getting-started/index.html#how-do-i-make-my-first-maven-project)
 
 ```bash
