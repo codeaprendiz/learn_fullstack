@@ -1,6 +1,6 @@
 # Learn Go
 
->Total number of tasks: 73
+>Total number of tasks: 76
 
 ## TaskSet
 
@@ -73,7 +73,10 @@
 - [task_066_http_server__stop_processing_signals__indefinite_time_for_shutdown](./taskset/task_066_http_server__stop_processing_signals__indefinite_time_for_shutdown)
 - [task_067_context__Background__withCancel](./taskset/task_067_context__Background__withCancel)
 - [task_068_http_server__rolldice](./taskset/task_068_http_server__rolldice)
-- [task_069_opentelemetry_go_dice](./taskset/task_069_opentelemetry_go_dice)
-- [task_070_logrus_getting_started](./taskset/task_070_logrus_getting_started)
-- [task_071_logrus_with_customization](./taskset/task_071_logrus_with_customization)
+- [task_069_opentelemetry__go_dice](./taskset/task_069_opentelemetry__go_dice)
+- [task_070_logrus__getting_started](./taskset/task_070_logrus__getting_started)
+- [task_071_logrus__with_customization](./taskset/task_071_logrus__with_customization)
 - [task_072_logrus_hooks](./taskset/task_072_logrus_hooks)
+- [task_073_gin__model_binding_and_validation](./taskset/task_073_gin__model_binding_and_validation)
+- [task_074_gin__bind_uri](./taskset/task_074_gin__bind_uri)
+- [task_075__gin__bind_query_string](./taskset/task_075__gin__bind_query_string)
