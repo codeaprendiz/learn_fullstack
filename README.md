@@ -1,6 +1,6 @@
 # Learn Fullstack
 
->Total number of tasks: 332
+>Total number of tasks: 343
 
 ## Languages
 
@@ -117,9 +117,9 @@ Click on individual language for more detailed information
 - [task_042_waitgroup__concurrency__go_routines](./go/taskset/task_042_waitgroup__concurrency__go_routines/)
 - [task_043_race_condition__go_routines](./go/taskset/task_043_race_condition__go_routines/)
 - [task_044_mutex__go_routines](./go/taskset/task_044_mutex__go_routines/)
-- [task_045_channel_intro](./go/taskset/task_045_channel_intro/)
-- [task_046_directional_channels](./go/taskset/task_046_directional_channels/)
-- [task_047_range_in_channels](./go/taskset/task_047_range_in_channels/)
+- [task_045_channel_intro__go_routines](./go/taskset/task_045_channel_intro__go_routines/)
+- [task_046_directional_channels__go_routines](./go/taskset/task_046_directional_channels__go_routines/)
+- [task_047_range_in_channels__go_routines](./go/taskset/task_047_range_in_channels__go_routines/)
 - [task_048_select_channels_switchcase](./go/taskset/task_048_select_channels_switchcase/)
 - [task_049_fan_in_channels](./go/taskset/task_049_fan_in_channels/)
 - [task_050_fan_out_channels](./go/taskset/task_050_fan_out_channels/)
@@ -134,6 +134,17 @@ Click on individual language for more detailed information
 - [task_059_middlewares_in_http_handlers](./go/taskset/task_059_middlewares_in_http_handlers/)
 - [task_060_capture_time_to_process_request__middlewares__http_handlers](./go/taskset/task_060_capture_time_to_process_request__middlewares__http_handlers/)
 - [task_061_customResponseWriter__wrapping_middlewares__http_handlers](./go/taskset/task_061_customResponseWriter__wrapping_middlewares__http_handlers/)
+- [task_062_byte_character_string](./go/taskset/task_062_byte_character_string/)
+- [task_063_web_service_gin__api_endpoints](./go/taskset/task_063_web_service_gin__api_endpoints/)
+- [task_064_http_server__context_propagation_via_signals](./go/taskset/task_064_http_server__context_propagation_via_signals/)
+- [task_065_http_server__setting_base_context_per_connection__shutdown_within_timeframe](./go/taskset/task_065_http_server__setting_base_context_per_connection__shutdown_within_timeframe/)
+- [task_066_http_server__stop_processing_signals__indefinite_time_for_shutdown](./go/taskset/task_066_http_server__stop_processing_signals__indefinite_time_for_shutdown/)
+- [task_067_context__Background__withCancel](./go/taskset/task_067_context__Background__withCancel/)
+- [task_068_http_server__rolldice](./go/taskset/task_068_http_server__rolldice/)
+- [task_069_opentelemetry_go_dice](./go/taskset/task_069_opentelemetry_go_dice/)
+- [task_070_logrus_getting_started](./go/taskset/task_070_logrus_getting_started/)
+- [task_071_logrus_with_customization](./go/taskset/task_071_logrus_with_customization/)
+- [task_072_logrus_hooks](./go/taskset/task_072_logrus_hooks/)
 
 ## javascript
 

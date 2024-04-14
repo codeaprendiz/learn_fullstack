@@ -27,12 +27,12 @@ Here's the breakdown:
 
    ```go
    for  i:=0; i<10; i++ {
-    if i % 2 == 0 {
-        e <- i
-    } else {
-        o <- i
+        if i % 2 == 0 {
+            e <- i
+        } else {
+            o <- i
+        }
     }
-  }
    ```
 
    Numbers from 0 through 9 are evaluated. If the number is even, it's sent to the `even` channel; otherwise, it's sent to the `odd` channel.
@@ -53,19 +53,19 @@ Here's the breakdown:
    Inside the `receive` function, there's a continuous loop waiting for values from the channels:
 
    ```go
-   for {
-    select {
-    case v := <- e:
-        fmt.Println("Even channel ", v)
-    case v := <- o:
-        fmt.Println("Odd channel ", v)
-    case v := <- q:
-        fmt.Println("Quit channel ", v)
-        return
-    default:
-        fmt.Println("No match")
+    for {
+        select {
+        case v := <- e:
+            fmt.Println("Even channel ", v)
+        case v := <- o:
+            fmt.Println("Odd channel ", v)
+        case v := <- q:
+            fmt.Println("Quit channel ", v)
+            return
+        default:
+            fmt.Println("No match")
+        }
     }
-}
     ```
 
    The `select` statement works somewhat like a `switch` statement, but for channels:
@@ -139,3 +139,17 @@ No match
 Odd channel  9
 Quit channel  1
 ```
+
+## Is there an issue if we do not close channels?
+
+Not closing a channel in Go is not inherently an issue, especially if the channel will be garbage collected soon after its last use. However, there are a few considerations to keep in mind:
+
+1. **Resource Management**: While Go's garbage collector can clean up unreferenced channels, explicitly closing a channel can be a good practice for managing resources, especially in long-running programs or those using many channels.
+
+2. **Signaling**: Closing a channel is often used as a signal to indicate that no more data will be sent on the channel. This can be important for coordinating goroutines.
+
+3. **Range Loops**: A range loop over a channel will only terminate if the channel is closed. If you don't close the channel, the range loop will block indefinitely, waiting for more data.
+
+4. **Deadlocks**: In certain complex scenarios, not closing a channel can lead to deadlocks, especially if goroutines are waiting on channel operations to complete.
+
+In summary, while not closing a channel might not immediately cause issues, it's generally good practice to close channels when they are no longer needed, as it can help in resource management, coordination between goroutines, and preventing potential deadlocks.

@@ -1,7 +1,14 @@
 #!/bin/bash
 
-SYNC_FROM_DIR_THAT_MUST_NOT_CHANGE="$HOME/workspace/Frontend-Backend-DevOps/learn-go"
-SYNC_TO_DIR_THAT_WILL_CHANGE="$HOME/workspace/codeaprendiz/learn-fullstack/go"
+SOURCE_ORG=$1
+
+if [ -z "$1" ]; then
+    echo "Usage: bash rsync-java.sh <source_org>"
+    exit 1
+fi
+
+SYNC_FROM_DIR_THAT_MUST_NOT_CHANGE="$HOME/workspace/$1/learn_go"
+SYNC_TO_DIR_THAT_WILL_CHANGE="$HOME/workspace/codeaprendiz/learn_fullstack/go"
 
 
 # Use the rsync command to sync the directories

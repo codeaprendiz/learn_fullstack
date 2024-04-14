@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Exit script on first error
-set -e
+# set -e
 
 # Sync nodejs progress
-bash ./nodejs/rsync-nodejs.sh
+# bash ./nodejs/rsync-nodejs.sh
 
 # Sync go progress
-bash ./go/rsync-go.sh
+# bash ./go/rsync-go.sh

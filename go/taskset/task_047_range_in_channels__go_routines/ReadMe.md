@@ -101,3 +101,9 @@ inside send()
 
 About to exit
 ```
+
+## what is the channel get's closed before we were able to receive all the values from the channel?
+
+In Go, if a channel is closed before you have received all the values, the remaining values in the channel can still be received. Once all values have been received and the channel is empty, any further reads from the channel will not block and will return the zero value of the channel's type along with a boolean `false` to indicate that no more values are available and the channel is closed.
+
+In the program, since the sending (`send`) and receiving (`receive`) of values on the channel `c` are synchronized (the `send` function is started as a goroutine and the `receive` function reads from the channel until it's closed), all values sent to the channel will be received before the channel is closed. The `for v := range c` loop in the `receive` function will continue to receive values until the channel is closed, ensuring that all sent values are received.

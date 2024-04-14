@@ -1,6 +1,6 @@
 # Learn Go
 
->Total number of tasks: 62
+>Total number of tasks: 73
 
 ## TaskSet
 
@@ -49,9 +49,9 @@
 - [task_042_waitgroup__concurrency__go_routines](./taskset/task_042_waitgroup__concurrency__go_routines)
 - [task_043_race_condition__go_routines](./taskset/task_043_race_condition__go_routines)
 - [task_044_mutex__go_routines](./taskset/task_044_mutex__go_routines)
-- [task_045_channel_intro](./taskset/task_045_channel_intro)
-- [task_046_directional_channels](./taskset/task_046_directional_channels)
-- [task_047_range_in_channels](./taskset/task_047_range_in_channels)
+- [task_045_channel_intro__go_routines](./taskset/task_045_channel_intro__go_routines)
+- [task_046_directional_channels__go_routines](./taskset/task_046_directional_channels__go_routines)
+- [task_047_range_in_channels__go_routines](./taskset/task_047_range_in_channels__go_routines)
 - [task_048_select_channels_switchcase](./taskset/task_048_select_channels_switchcase)
 - [task_049_fan_in_channels](./taskset/task_049_fan_in_channels)
 - [task_050_fan_out_channels](./taskset/task_050_fan_out_channels)
@@ -66,3 +66,14 @@
 - [task_059_middlewares_in_http_handlers](./taskset/task_059_middlewares_in_http_handlers)
 - [task_060_capture_time_to_process_request__middlewares__http_handlers](./taskset/task_060_capture_time_to_process_request__middlewares__http_handlers)
 - [task_061_customResponseWriter__wrapping_middlewares__http_handlers](./taskset/task_061_customResponseWriter__wrapping_middlewares__http_handlers)
+- [task_062_byte_character_string](./taskset/task_062_byte_character_string)
+- [task_063_web_service_gin__api_endpoints](./taskset/task_063_web_service_gin__api_endpoints)
+- [task_064_http_server__context_propagation_via_signals](./taskset/task_064_http_server__context_propagation_via_signals)
+- [task_065_http_server__setting_base_context_per_connection__shutdown_within_timeframe](./taskset/task_065_http_server__setting_base_context_per_connection__shutdown_within_timeframe)
+- [task_066_http_server__stop_processing_signals__indefinite_time_for_shutdown](./taskset/task_066_http_server__stop_processing_signals__indefinite_time_for_shutdown)
+- [task_067_context__Background__withCancel](./taskset/task_067_context__Background__withCancel)
+- [task_068_http_server__rolldice](./taskset/task_068_http_server__rolldice)
+- [task_069_opentelemetry_go_dice](./taskset/task_069_opentelemetry_go_dice)
+- [task_070_logrus_getting_started](./taskset/task_070_logrus_getting_started)
+- [task_071_logrus_with_customization](./taskset/task_071_logrus_with_customization)
+- [task_072_logrus_hooks](./taskset/task_072_logrus_hooks)
