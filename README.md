@@ -1,6 +1,6 @@
 # Learn Fullstack
 
->Total number of tasks: 346
+>Total number of tasks: 353
 
 ## Languages
 
@@ -384,6 +384,13 @@ Click on individual language for more detailed information
 
 ## shell
 
+- [task_001_clear_log_files](./shell/taskset/task_001_clear_log_files/)
+- [task_002_create_user](./shell/taskset/task_002_create_user/)
+- [task_003_heapdump](./shell/taskset/task_003_heapdump/)
+- [task_004_nfs_mount](./shell/taskset/task_004_nfs_mount/)
+- [task_005_rsync](./shell/taskset/task_005_rsync/)
+- [task_006_threaddump](./shell/taskset/task_006_threaddump/)
+- [task_007_restart_instances](./shell/taskset/task_007_restart_instances/)
 
 ## php
 
