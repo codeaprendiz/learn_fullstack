@@ -1,4 +1,11 @@
+# NFS Mount
+
+```bash
 #!/bin/bash
+
+# This is NFS mount script place to mount on directory /website_camel_nfsshared directory.
+# Version 1.0
+# Author : Ankit Rathi.
 
 # Directory creation and unmount incase of already mount.
 ifdfwhost=`hostname -f | grep dfw | wc -l`
@@ -37,7 +44,4 @@ if [ "${ifcdchost}" -eq 1 ] ; then
 else 
 	echo "It not cdc host"
 fi
-
-
-
-
+```
