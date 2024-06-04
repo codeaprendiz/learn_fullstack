@@ -1,6 +1,6 @@
 # Learn Fullstack
 
->Total number of tasks: 353
+>Total number of tasks: 355
 
 ## Languages
 
@@ -391,6 +391,8 @@ Click on individual language for more detailed information
 - [task_005_rsync](./shell/taskset/task_005_rsync/)
 - [task_006_threaddump](./shell/taskset/task_006_threaddump/)
 - [task_007_restart_instances](./shell/taskset/task_007_restart_instances/)
+- [task_008_default_vars](./shell/taskset/task_008_default_vars/)
+- [task_009_indirect_expansion__checks_for_null_None](./shell/taskset/task_009_indirect_expansion__checks_for_null_None/)
 
 ## php
 
