@@ -164,6 +164,7 @@ function createGlobalMarkdownTable($associativeArrayOfReqDirs) {
 
 $associativeArrayOfReqDirs = createAssociativeArrayOfReqDirs_v1('.', '/^task_/'); // if first call is for ".", second call is for "./home" and so on as the function is recursive
 
+print_r($associativeArrayOfReqDirs);
 createIndividualSectionsMarkdown($associativeArrayOfReqDirs);
 
 $globalMarkdownTable = createGlobalMarkdownTable($associativeArrayOfReqDirs);

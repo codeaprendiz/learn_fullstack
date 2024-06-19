@@ -44,7 +44,6 @@ function createIndividualSectionsMarkdown($associativeArrayOfReqDirs)
         preg_match('/home\/.*(?=\/task_)/', $arrayOfDirectoriesInTasksetDirectory[0], $matches);
         $relativePathToTasksetDirectoryReadMeFile = $matches[0];
         $relativePathToTasksetDirectoryReadMeFile = substr($relativePathToTasksetDirectoryReadMeFile, 0, strrpos($relativePathToTasksetDirectoryReadMeFile, '/'));
-        print("----------".$relativePathToTasksetDirectoryReadMeFile);
         # $commandToGetStaticContentOfTasksetDirectory = 'cat ' . $relativePathToTasksetDirectoryReadMeFile .'/ReadMe_static.md | egrep -v ReadMe_static 2>/dev/null';
         # $staticContentOfTasksetDirectory = shell_exec($commandToGetStaticContentOfTasksetDirectory);
         $markdown .= "# $tasksetDirectoryKey\n\n> Auto generated ReadMe. Number of tasks: $numberOfTasksInTasksetDirectory\n";
@@ -60,7 +59,6 @@ function createIndividualSectionsMarkdown($associativeArrayOfReqDirs)
             $tasksetDirectoryName = $arrayOfChildFoldersRelativePathExplodedWithSlash[count($arrayOfChildFoldersRelativePathExplodedWithSlash) - 2]; // second last element
             $markdown .= "| $taskNumber | [$childFolderName]($tasksetDirectoryName/$childFolderName) |\n";
         }
-        print("----------".$relativePathToTasksetDirectoryReadMeFile);
         file_put_contents($relativePathToTasksetDirectoryReadMeFile . '/ReadMe.md', $markdown);
     }
 }
@@ -81,7 +79,6 @@ function createGlobalMarkdownTable($associativeArrayOfReqDirs) {
     
     // Convert the string to an array, splitting by new lines and trimming each line
     $arrayOfFolderNames = array_filter(array_map('trim', explode("\n", $arrayOfFolderNames)));
-    print_r($arrayOfFolderNames);
     
     ## Create the table of contents section
     foreach ($arrayOfFolderNames as $folderName) { // folderName=css $folderName is the value of the current element
@@ -133,7 +130,7 @@ function createGlobalMarkdownTable($associativeArrayOfReqDirs) {
 
 
         foreach ($arrayOfMatchingTasksetDirectory as $matchingTasksetDirectory) { // matchingTasksetDirectory=taskset_css_essential_training
-            preg_match('/home\/.*?(?=\/task_)/', $associativeArrayOfReqDirs[$matchingTasksetDirectory][0], $matches);
+            preg_match('/home\/.*(?=\/task_)/', $associativeArrayOfReqDirs[$matchingTasksetDirectory][0], $matches);
             $relativePathToTasksetDirectoryReadMeFile = $matches[0]; // relativePathToTasksetDirectoryReadMeFile: home/css/css_essential_training_essential_training/taskset_css_essential_training
             $relativePathToTasksetDirectoryReadMeFile = substr($relativePathToTasksetDirectoryReadMeFile, 0, strrpos($relativePathToTasksetDirectoryReadMeFile, '/')); // relativePathToTasksetDirectoryReadMeFile: home/css/css_essential_training_essential_training  
             $linkToDir = $relativePathToTasksetDirectoryReadMeFile; // linkToDir: home/css/css_essential_training
