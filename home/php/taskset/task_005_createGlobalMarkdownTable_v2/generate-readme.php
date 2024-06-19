@@ -41,7 +41,7 @@ function createIndividualSectionsMarkdown($associativeArrayOfReqDirs)
     foreach ($associativeArrayOfReqDirs as $tasksetDirectoryKey => $arrayOfDirectoriesInTasksetDirectory) {
         $markdown = '';
         $numberOfTasksInTasksetDirectory = count($arrayOfDirectoriesInTasksetDirectory);
-        preg_match('/home\/.*?(?=\/task_)/', $arrayOfDirectoriesInTasksetDirectory[0], $matches);
+        preg_match('/home\/.*(?=\/task_)/', $arrayOfDirectoriesInTasksetDirectory[0], $matches);
         $relativePathToTasksetDirectoryReadMeFile = $matches[0];
         $relativePathToTasksetDirectoryReadMeFile = substr($relativePathToTasksetDirectoryReadMeFile, 0, strrpos($relativePathToTasksetDirectoryReadMeFile, '/'));
         print("----------".$relativePathToTasksetDirectoryReadMeFile);
