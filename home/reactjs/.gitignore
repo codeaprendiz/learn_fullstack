@@ -1,9 +1,0 @@
-# Node modules
-node_modules/
-dist/
-.env
-coverage/
-
-
-# Mac
-.DS_store
