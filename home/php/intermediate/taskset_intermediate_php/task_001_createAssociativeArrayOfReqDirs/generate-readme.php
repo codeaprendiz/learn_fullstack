@@ -10,14 +10,14 @@ Generates a tree structure of directories and subdirectories.The createTree func
 function createAssociativeArrayOfReqDirs_v1($currentFoldersRelativePathInConsideration = './', $directoryRegex = '/^task_/')
 {
     print("\n\n\n-----------------createAssociativeArrayOfReqDirs_v1($currentFoldersRelativePathInConsideration,$directoryRegex)--------------------------------------------------------------------------------\n");
-    print("currentFoldersRelativePathInConsideration: $currentFoldersRelativePathInConsideration\n"); // currentFoldersRelativePathInConsideration: ./home/group_2/topic_1/taskset_topic_1_group_2
+    print("currentFoldersRelativePathInConsideration: $currentFoldersRelativePathInConsideration\n"); // currentFoldersRelativePathInConsideration: ./base/group_2/topic_1/taskset_topic_1_group_2
     $associativeArrayOfTasksetDirectories = [];
 
     /*
         arrayOfRelativePathsOfChildFoldersInCurrentFolder: Array
             (
-                [0] => ./home/group_2/topic_1/taskset_topic_1_group_2/task_000_zero
-                [1] => ./home/group_2/topic_1/taskset_topic_1_group_2/task_001_one
+                [0] => ./base/group_2/topic_1/taskset_topic_1_group_2/task_000_zero
+                [1] => ./base/group_2/topic_1/taskset_topic_1_group_2/task_001_one
             )
     */
     $arrayOfRelativePathsOfChildFoldersInCurrentFolder = array_filter(
@@ -29,21 +29,21 @@ function createAssociativeArrayOfReqDirs_v1($currentFoldersRelativePathInConside
 
     sort($arrayOfRelativePathsOfChildFoldersInCurrentFolder);
 
-    foreach ($arrayOfRelativePathsOfChildFoldersInCurrentFolder as $childFoldersRelativePathInCurrentFolder) { // childFoldersRelativePathInCurrentFolder: ./home/group_2/topic_1/taskset_topic_1_group_2/task_000_zero
+    foreach ($arrayOfRelativePathsOfChildFoldersInCurrentFolder as $childFoldersRelativePathInCurrentFolder) { // childFoldersRelativePathInCurrentFolder: ./base/group_2/topic_1/taskset_topic_1_group_2/task_000_zero
         print("childFoldersRelativePathInCurrentFolder: $childFoldersRelativePathInCurrentFolder\n");
         $baseDirectoryName = trim(basename($childFoldersRelativePathInCurrentFolder)); // baseDirectoryName: task_000_zero
         print("baseDirectoryName: $baseDirectoryName\n");
 
         if (preg_match($directoryRegex, $baseDirectoryName)) {
-            $childFoldersAbsolutePathInCurrentFolder = realpath($childFoldersRelativePathInCurrentFolder); // childFoldersAbsolutePathInCurrentFolder: /Users/username/workspace/repoName/phpscript/task_001_createAssociativeArrayOfReqDirs/home/group_2/topic_1/taskset_topic_1_group_2/task_000_zero
+            $childFoldersAbsolutePathInCurrentFolder = realpath($childFoldersRelativePathInCurrentFolder); // childFoldersAbsolutePathInCurrentFolder: /Users/username/workspace/repoName/phpscript/task_001_createAssociativeArrayOfReqDirs/base/group_2/topic_1/taskset_topic_1_group_2/task_000_zero
             print("childFoldersAbsolutePathInCurrentFolder: $childFoldersAbsolutePathInCurrentFolder\n");
-            $childFoldersRelativePathFromHome = substr($childFoldersAbsolutePathInCurrentFolder, strpos($childFoldersAbsolutePathInCurrentFolder, 'home')); // childFoldersRelativePathFromHome: home/group_2/topic_1/taskset_topic_1_group_2/task_000_zero
+            $childFoldersRelativePathFromHome = substr($childFoldersAbsolutePathInCurrentFolder, strpos($childFoldersAbsolutePathInCurrentFolder, 'base')); // childFoldersRelativePathFromHome: base/group_2/topic_1/taskset_topic_1_group_2/task_000_zero
             print("childFoldersRelativePathFromHome: $childFoldersRelativePathFromHome\n");
             
             /*
                 arrayOfPathPartsFromHomeAfterRemovingSlash: Array
                 (
-                    [0] => home
+                    [0] => base
                     [1] => group_2
                     [2] => topic_1
                     [3] => taskset_topic_1_group_2
@@ -58,7 +58,7 @@ function createAssociativeArrayOfReqDirs_v1($currentFoldersRelativePathInConside
 
             if (!isset($associativeArrayOfTasksetDirectories[$parentDirOfCurrentTaskDirectory])) { // if not initialized, initialize it as an empty array
                 print("associativeArrayOfTasksetDirectories[$parentDirOfCurrentTaskDirectory] not set. Setting it to an empty array\n");
-                $associativeArrayOfTasksetDirectories[$parentDirOfCurrentTaskDirectory] = []; // associativeArrayOfTasksetDirectories[taskset_topic_1_group_2]: task_000_zero home/group_2/topic_1/taskset_topic_1_group_2/task_000_zero
+                $associativeArrayOfTasksetDirectories[$parentDirOfCurrentTaskDirectory] = []; // associativeArrayOfTasksetDirectories[taskset_topic_1_group_2]: task_000_zero base/group_2/topic_1/taskset_topic_1_group_2/task_000_zero
             }
             print("Setting associativeArrayOfTasksetDirectories[$parentDirOfCurrentTaskDirectory]: $baseDirectoryName $childFoldersRelativePathFromHome\n");
             $associativeArrayOfTasksetDirectories[$parentDirOfCurrentTaskDirectory][] = "$baseDirectoryName $childFoldersRelativePathFromHome"; // $associativeArrayOfTasksetDirectories[$parentDirOfCurrentTaskDirectory][]: The [] notation is used to append an element to the array associated with the key $parentDirOfCurrentTaskDirectory. 
@@ -80,7 +80,7 @@ function createAssociativeArrayOfReqDirs_v1($currentFoldersRelativePathInConside
     return $associativeArrayOfTasksetDirectories;
 }
 
-$associativeArrayOfReqDirs = createAssociativeArrayOfReqDirs_v1('.', '/^task_/'); // if first call is for ".", second call is for "./home" and so on as the function is recursive
+$associativeArrayOfReqDirs = createAssociativeArrayOfReqDirs_v1('.', '/^task_/'); // if first call is for ".", second call is for "./base" and so on as the function is recursive
 
 print("\n\n\n-----------------createAssociativeArrayOfReqDirs_v1('.', '/^task_/')--------------------------------------------------------------------------------\n");
 print_r($associativeArrayOfReqDirs);

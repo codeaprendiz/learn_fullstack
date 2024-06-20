@@ -1,27 +1,29 @@
 # Understanding createIndividualSectionsMarkdown
 
+> Note: Run the file from the root directory of the repository.
+
 ## Directory Structre
 
 ```bash
-$ tree
+$ tree 
 .
 ├── ReadMe.md
-├── generate-readme.php
-└── home
-    ├── group_1
-    │   └── topic_1
-    │       ├── ReadMe.md
-    │       └── taskset_topic_1_group_1
-    │           └── task_001_one
-    │               └── ReadMe.md
-    └── group_2
-        └── topic_1
-            ├── ReadMe.md
-            └── taskset_topic_1_group_2
-                ├── task_000_zero
-                │   └── ReadMe.md
-                └── task_001_one
-                    └── ReadMe.md
+├── base
+│   ├── group_3
+│   │   └── topic_3
+│   │       ├── ReadMe.md
+│   │       └── taskset_topic_3_group_3
+│   │           ├── task_000_zero
+│   │           │   └── ReadMe.md
+│   │           └── task_001_one
+│   │               └── ReadMe.md
+│   └── group_4
+│       └── topic_4
+│           ├── ReadMe.md
+│           └── taskset_topic_4_group_4
+│               └── task_001_one
+│                   └── ReadMe.md
+└── generate-readme.php
 
 11 directories, 7 files
 ```
@@ -33,102 +35,102 @@ $ php generate-readme.php
 
 
 
----------------tasksetDirectoryKey-------------taskset_topic_1_group_1-----------------------------------------------------------
+---------------tasksetDirectoryKey-------------taskset_topic_3_group_3-----------------------------------------------------------
 ---------------arrayOfDirectoriesInTasksetDirectory--------------------------------------------------------------------------------
 Array
 (
-    [0] => task_001_one home/group_1/topic_1/taskset_topic_1_group_1/task_001_one
+    [0] => task_000_zero base/group_3/topic_3/taskset_topic_3_group_3/task_000_zero
+    [1] => task_001_one base/group_3/topic_3/taskset_topic_3_group_3/task_001_one
 )
-arrayOfDirectoriesInTasksetDirectory[0]: task_001_one home/group_1/topic_1/taskset_topic_1_group_1/task_001_one--------relativePathToTasksetDirectoryReadMeFile------------home/group_1/topic_1/taskset_topic_1_group_1----
---------relativePathToTasksetDirectoryReadMeFile------------home/group_1/topic_1----
---------taskDirectoryChildFolderConcatenatedWithRelativePath------------task_001_one home/group_1/topic_1/taskset_topic_1_group_1/task_001_one----
---------taskNumber------------task_001----
---------arrayOfChildFolderNameAndItsRelativePath---------------
---------childFolderName------------task_001_one----
-Array
-(
-    [0] => task_001_one
-    [1] => home/group_1/topic_1/taskset_topic_1_group_1/task_001_one
-)
---------childFolderName------------task_001_one----
---------arrayOfChildFoldersRelativePathExplodedWithSlash---------------
-Array
-(
-    [0] => home
-    [1] => group_1
-    [2] => topic_1
-    [3] => taskset_topic_1_group_1
-    [4] => task_001_one
-)
---------tasksetDirectoryName------------taskset_topic_1_group_1----
-Adding following row to markdown
-| task_001 | [task_001_one](taskset_topic_1_group_1/task_001_one) |
-
-
-
----------------tasksetDirectoryKey-------------taskset_topic_1_group_2-----------------------------------------------------------
----------------arrayOfDirectoriesInTasksetDirectory--------------------------------------------------------------------------------
-Array
-(
-    [0] => task_000_zero home/group_2/topic_1/taskset_topic_1_group_2/task_000_zero
-    [1] => task_001_one home/group_2/topic_1/taskset_topic_1_group_2/task_001_one
-)
-arrayOfDirectoriesInTasksetDirectory[0]: task_000_zero home/group_2/topic_1/taskset_topic_1_group_2/task_000_zero--------relativePathToTasksetDirectoryReadMeFile------------home/group_2/topic_1/taskset_topic_1_group_2----
---------relativePathToTasksetDirectoryReadMeFile------------home/group_2/topic_1----
---------taskDirectoryChildFolderConcatenatedWithRelativePath------------task_000_zero home/group_2/topic_1/taskset_topic_1_group_2/task_000_zero----
+arrayOfDirectoriesInTasksetDirectory[0]: task_000_zero base/group_3/topic_3/taskset_topic_3_group_3/task_000_zero--------relativePathToTasksetDirectoryReadMeFile------------base/group_3/topic_3/taskset_topic_3_group_3----
+--------relativePathToTasksetDirectoryReadMeFile------------base/group_3/topic_3----
+--------taskDirectoryChildFolderConcatenatedWithRelativePath------------task_000_zero base/group_3/topic_3/taskset_topic_3_group_3/task_000_zero----
 --------taskNumber------------task_000----
 --------arrayOfChildFolderNameAndItsRelativePath---------------
 --------childFolderName------------task_000_zero----
 Array
 (
     [0] => task_000_zero
-    [1] => home/group_2/topic_1/taskset_topic_1_group_2/task_000_zero
+    [1] => base/group_3/topic_3/taskset_topic_3_group_3/task_000_zero
 )
 --------childFolderName------------task_000_zero----
 --------arrayOfChildFoldersRelativePathExplodedWithSlash---------------
 Array
 (
-    [0] => home
-    [1] => group_2
-    [2] => topic_1
-    [3] => taskset_topic_1_group_2
+    [0] => base
+    [1] => group_3
+    [2] => topic_3
+    [3] => taskset_topic_3_group_3
     [4] => task_000_zero
 )
---------tasksetDirectoryName------------taskset_topic_1_group_2----
+--------tasksetDirectoryName------------taskset_topic_3_group_3----
 Adding following row to markdown
-| task_000 | [task_000_zero](taskset_topic_1_group_2/task_000_zero) |
---------taskDirectoryChildFolderConcatenatedWithRelativePath------------task_001_one home/group_2/topic_1/taskset_topic_1_group_2/task_001_one----
+| task_000 | [task_000_zero](taskset_topic_3_group_3/task_000_zero) |
+--------taskDirectoryChildFolderConcatenatedWithRelativePath------------task_001_one base/group_3/topic_3/taskset_topic_3_group_3/task_001_one----
 --------taskNumber------------task_001----
 --------arrayOfChildFolderNameAndItsRelativePath---------------
 --------childFolderName------------task_001_one----
 Array
 (
     [0] => task_001_one
-    [1] => home/group_2/topic_1/taskset_topic_1_group_2/task_001_one
+    [1] => base/group_3/topic_3/taskset_topic_3_group_3/task_001_one
 )
 --------childFolderName------------task_001_one----
 --------arrayOfChildFoldersRelativePathExplodedWithSlash---------------
 Array
 (
-    [0] => home
-    [1] => group_2
-    [2] => topic_1
-    [3] => taskset_topic_1_group_2
+    [0] => base
+    [1] => group_3
+    [2] => topic_3
+    [3] => taskset_topic_3_group_3
     [4] => task_001_one
 )
---------tasksetDirectoryName------------taskset_topic_1_group_2----
+--------tasksetDirectoryName------------taskset_topic_3_group_3----
 Adding following row to markdown
-| task_001 | [task_001_one](taskset_topic_1_group_2/task_001_one) |
+| task_001 | [task_001_one](taskset_topic_3_group_3/task_001_one) |
+
+
+
+---------------tasksetDirectoryKey-------------taskset_topic_4_group_4-----------------------------------------------------------
+---------------arrayOfDirectoriesInTasksetDirectory--------------------------------------------------------------------------------
+Array
+(
+    [0] => task_001_one base/group_4/topic_4/taskset_topic_4_group_4/task_001_one
+)
+arrayOfDirectoriesInTasksetDirectory[0]: task_001_one base/group_4/topic_4/taskset_topic_4_group_4/task_001_one--------relativePathToTasksetDirectoryReadMeFile------------base/group_4/topic_4/taskset_topic_4_group_4----
+--------relativePathToTasksetDirectoryReadMeFile------------base/group_4/topic_4----
+--------taskDirectoryChildFolderConcatenatedWithRelativePath------------task_001_one base/group_4/topic_4/taskset_topic_4_group_4/task_001_one----
+--------taskNumber------------task_001----
+--------arrayOfChildFolderNameAndItsRelativePath---------------
+--------childFolderName------------task_001_one----
+Array
+(
+    [0] => task_001_one
+    [1] => base/group_4/topic_4/taskset_topic_4_group_4/task_001_one
+)
+--------childFolderName------------task_001_one----
+--------arrayOfChildFoldersRelativePathExplodedWithSlash---------------
+Array
+(
+    [0] => base
+    [1] => group_4
+    [2] => topic_4
+    [3] => taskset_topic_4_group_4
+    [4] => task_001_one
+)
+--------tasksetDirectoryName------------taskset_topic_4_group_4----
+Adding following row to markdown
+| task_001 | [task_001_one](taskset_topic_4_group_4/task_001_one) |
 ```
 
 ## Understanding Regex
 
-let's break down the regular expression `/home\/.*?(?=\/task_)/` used in the `preg_match` function:
+let's break down the regular expression `/base\/.*?(?=\/task_)/` used in the `preg_match` function:
 
-### Explanation of the Regex `/home\/.*?(?=\/task_)/`
+### Explanation of the Regex `/base\/.*?(?=\/task_)/`
 
-1. **`home\/`**:
-   - **`home`**: Matches the literal string "home".
+1. **`base\/`**:
+   - **`base`**: Matches the literal string "base".
    - **`\/`**: Matches a literal forward slash `/`.
 
 2. **`.*?`**:
@@ -140,7 +142,7 @@ let's break down the regular expression `/home\/.*?(?=\/task_)/` used in the `pr
    - **`(?=...)`**: Positive lookahead assertion. It asserts that what immediately follows the current position in the string is the pattern inside the parentheses but does not include it in the match.
    - **`\/task_`**: Matches a literal forward slash `/` followed by the string "task_".
 
-The regex `/home\/.*?(?=\/task_)/` matches "home/" followed by the shortest possible sequence of any characters that is followed by "/task_", without including "/task_" in the match.
+The regex `/base\/.*?(?=\/task_)/` matches "base/" followed by the shortest possible sequence of any characters that is followed by "/task_", without including "/task_" in the match.
 
 ![img](.images/image-2024-06-18-11-23-17.png)
 
