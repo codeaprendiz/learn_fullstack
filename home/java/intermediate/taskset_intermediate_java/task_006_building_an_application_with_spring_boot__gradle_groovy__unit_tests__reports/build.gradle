@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.4'  // Use Spring Boot plugin v3.2.4 compatible with Java 17+
+    id 'io.spring.dependency-management' version '1.1.4'  // Manage dependencies' versions without specifying them
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'  // Project versioning follows the Maven convention
+
+java {
+    sourceCompatibility = '21'  // Ensure the project is built to be compatible with Java 21
+}
+
+repositories {
+    mavenCentral()  // Define Maven Central as the repository to fetch dependencies from
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'  // Web starter includes Tomcat and spring-webmvc
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'  // Actuator to expose operational information
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'  // Starter for testing Spring Boot applications
+}
+
+tasks.named('test') {
+    useJUnitPlatform()  // Use JUnit Platform for running any tests
+
+    test {
+        testLogging {
+            events "passed", "failed", "skipped"  // Configure logging to output the result of each test
+        }
+        
+        reports {
+            junitXml.required.set(true)  // Enable JUnit XML reports for integration with CI tools
+            html.required.set(true)      // Enable HTML reports for easy-to-read test results
+        }
+    }
+}
+
+// Optional task to print out directories for reports and results, useful for debugging
+tasks.register('showDirs') {
+    doLast {
+        println("Reports directory: ${reporting.baseDirectory.get().asFile}")  // Print the location of reports directory
+        println("Test results directory: ${java.testResultsDir.get().asFile}")  // Print the location of test results directory
+    }
+}
