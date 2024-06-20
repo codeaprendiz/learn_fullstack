@@ -1,6 +1,6 @@
 # Home
 
-> Auto generated ReadMe. Number of tasks: 160
+> Auto generated ReadMe. Number of tasks: 210
 
 - [css](#css)
 - [go](#go)
@@ -28,14 +28,15 @@
 
 ## java
 
-| intermediate                       |
-|------------------------------------|
-| [Tasks: 6](home/java/intermediate) |
+| intermediate                       | javascript_essential_training                              |
+|------------------------------------|------------------------------------------------------------|
+| [Tasks: 6](home/java/intermediate) | [Tasks: 50](home/javascript/javascript_essential_training) |
 
 ## javascript
 
-[Useful Links](./home/javascript/ReadMe_static.md)
-
+| javascript_essential_training                              |
+|------------------------------------------------------------|
+| [Tasks: 50](home/javascript/javascript_essential_training) |
 
 ## nodejs
 
