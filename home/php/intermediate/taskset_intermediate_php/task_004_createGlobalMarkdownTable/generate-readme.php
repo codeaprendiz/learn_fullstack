@@ -80,7 +80,7 @@ function createIndividualSectionsMarkdown($associativeArrayOfReqDirs)
         $relativePathToTasksetDirectoryReadMeFile = $matches[0];
         $relativePathToTasksetDirectoryReadMeFile = substr($relativePathToTasksetDirectoryReadMeFile, 0, strrpos($relativePathToTasksetDirectoryReadMeFile, '/'));
 
-        $markdown .= "# $tasksetDirectoryKey\n\n> Auto generated ReadMe. Number of tasks: $numberOfTasksInTasksetDirectory\n";
+        $markdown .= "# $tasksetDirectoryKey\n\n> [Auto](https://github.com/codeaprendiz/learn_fullstack/blob/main/home/php/intermediate/taskset_intermediate_php/task_004_createGlobalMarkdownTable/generate-readme.php) generated ReadMe. Number of tasks: $numberOfTasksInTasksetDirectory\n";
         // Check if ReadMe_static.md file exists
         if (file_exists($relativePathToTasksetDirectoryReadMeFile . '/ReadMe_static.md')) {
             $commandToGetStaticContentOfTasksetDirectory = 'cat ' . $relativePathToTasksetDirectoryReadMeFile .'/ReadMe_static.md | egrep -v ReadMe_static';
@@ -128,7 +128,7 @@ function createGlobalMarkdownTable($associativeArrayOfReqDirs) {
     // remove whitespace from the beginning and end of the string
     $totalNumberOfTasks = trim($totalNumberOfTasks);
     ## First heading of ReadMe.md
-    $markdown = "# Home\n\n> Auto generated ReadMe. Number of tasks: $totalNumberOfTasks\n\n";
+    $markdown = "# Home\n\n> [Auto](https://github.com/codeaprendiz/learn_fullstack/blob/main/home/php/intermediate/taskset_intermediate_php/task_004_createGlobalMarkdownTable/generate-readme.php) generated ReadMe. Number of tasks: $totalNumberOfTasks\n\n";
     
     // ls -ltrh base | egrep -v "total" | awk '{print "\"" $9 "\","}' |  tr -d "\"," |  sort
     $commandToGetAllFoldersInCurrentDir='ls -ltrh ' . $baseDir . ' | egrep -v "total|ReadMe.md" | awk \'{print "\"" $9 "\","}\' |  tr -d "\"," | sort';
