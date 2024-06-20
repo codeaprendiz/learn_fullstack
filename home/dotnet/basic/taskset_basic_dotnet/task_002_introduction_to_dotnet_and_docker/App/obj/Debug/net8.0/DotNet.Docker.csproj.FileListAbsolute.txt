@@ -1,0 +1,15 @@
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/bin/Debug/net8.0/DotNet.Docker
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/bin/Debug/net8.0/DotNet.Docker.deps.json
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/bin/Debug/net8.0/DotNet.Docker.runtimeconfig.json
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/bin/Debug/net8.0/DotNet.Docker.dll
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/bin/Debug/net8.0/DotNet.Docker.pdb
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/obj/Debug/net8.0/DotNet.Docker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/obj/Debug/net8.0/DotNet.Docker.AssemblyInfoInputs.cache
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/obj/Debug/net8.0/DotNet.Docker.AssemblyInfo.cs
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/obj/Debug/net8.0/DotNet.Docker.csproj.CoreCompileInputs.cache
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/obj/Debug/net8.0/DotNet.Docker.sourcelink.json
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/obj/Debug/net8.0/DotNet.Docker.dll
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/obj/Debug/net8.0/refint/DotNet.Docker.dll
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/obj/Debug/net8.0/DotNet.Docker.pdb
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/obj/Debug/net8.0/DotNet.Docker.genruntimeconfig.cache
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/obj/Debug/net8.0/ref/DotNet.Docker.dll

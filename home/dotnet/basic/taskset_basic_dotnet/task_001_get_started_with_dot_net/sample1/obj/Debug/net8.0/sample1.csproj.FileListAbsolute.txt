@@ -1,0 +1,15 @@
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/bin/Debug/net8.0/sample1
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/bin/Debug/net8.0/sample1.deps.json
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/bin/Debug/net8.0/sample1.runtimeconfig.json
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/bin/Debug/net8.0/sample1.dll
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/bin/Debug/net8.0/sample1.pdb
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/obj/Debug/net8.0/sample1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/obj/Debug/net8.0/sample1.AssemblyInfoInputs.cache
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/obj/Debug/net8.0/sample1.AssemblyInfo.cs
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/obj/Debug/net8.0/sample1.csproj.CoreCompileInputs.cache
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/obj/Debug/net8.0/sample1.sourcelink.json
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/obj/Debug/net8.0/sample1.dll
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/obj/Debug/net8.0/refint/sample1.dll
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/obj/Debug/net8.0/sample1.pdb
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/obj/Debug/net8.0/sample1.genruntimeconfig.cache
+/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_001_get_started_with_dot_net/sample1/obj/Debug/net8.0/ref/sample1.dll

@@ -1,6 +1,6 @@
 # Home
 
-> Auto generated ReadMe. Number of tasks: 359
+> Auto generated ReadMe. Number of tasks: 361
 
 - [css](#css)
 - [dotnet](#dotnet)
@@ -24,6 +24,11 @@
 
 ## dotnet
 
+[Useful Links](./home/dotnet/ReadMe_static.md)
+
+| basic                         |
+|-------------------------------|
+| [Tasks: 2](home/dotnet/basic) |
 
 ## go
 
@@ -45,17 +50,13 @@
 
 ## nodejs
 
-| 01_learning_nodejs                          | 02_nodejs_essential_training                          | 03_learning_npm_a_package_manager                         |
-|---------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------|
-| [Tasks: 18](home/nodejs/01_learning_nodejs) | [Tasks: 26](home/nodejs/02_nodejs_essential_training) | [Tasks: 5](home/nodejs/03_learning_npm_a_package_manager) |
+| 01_learning_nodejs                          | 02_nodejs_essential_training                          | 03_learning_npm_a_package_manager                         | 04_express_essential_training                          | 05_portfolio_using_bootstrap_and_saas                         |
+|---------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------|---------------------------------------------------------------|
+| [Tasks: 18](home/nodejs/01_learning_nodejs) | [Tasks: 26](home/nodejs/02_nodejs_essential_training) | [Tasks: 5](home/nodejs/03_learning_npm_a_package_manager) | [Tasks: 27](home/nodejs/04_express_essential_training) | [Tasks: 8](home/nodejs/05_portfolio_using_bootstrap_and_saas) |
 
-| 04_express_essential_training                          | 05_portfolio_using_bootstrap_and_saas                         | 06_databases_for_nodejs_developers                          |
-|--------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------------------|
-| [Tasks: 27](home/nodejs/04_express_essential_training) | [Tasks: 8](home/nodejs/05_portfolio_using_bootstrap_and_saas) | [Tasks: 17](home/nodejs/06_databases_for_nodejs_developers) |
-
-| 07_express_essentials                          | 08_meetup_app                         |
-|------------------------------------------------|---------------------------------------|
-| [Tasks: 11](home/nodejs/07_express_essentials) | [Tasks: 6](home/nodejs/08_meetup_app) |
+| 06_databases_for_nodejs_developers                          | 07_express_essentials                          | 08_meetup_app                         |
+|-------------------------------------------------------------|------------------------------------------------|---------------------------------------|
+| [Tasks: 17](home/nodejs/06_databases_for_nodejs_developers) | [Tasks: 11](home/nodejs/07_express_essentials) | [Tasks: 6](home/nodejs/08_meetup_app) |
 
 ## php
 
