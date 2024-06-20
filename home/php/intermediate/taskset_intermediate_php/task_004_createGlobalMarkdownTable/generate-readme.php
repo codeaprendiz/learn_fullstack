@@ -112,6 +112,15 @@ function createGlobalMarkdownTable($associativeArrayOfReqDirs) {
     if ($baseDir === false) {
         exit("Error: The environment variable BASE_DIR is not defined.\n");
     }
+
+    // Retrieve the 'MAX_COLUMNS' environment variable
+    $maxColumns = getenv('MAX_COLUMNS');
+
+    // Check if the environment variable is set and is a valid number
+    if ($maxColumns === false || !is_numeric($maxColumns)) {
+        // If not set or not valid, use the default value
+        $maxColumns = 5;
+    }
     
     // Execute the find command and count the number of lines
     $commandToGetTotalNumberOfTasks = 'find . -name "task_*" | wc -l';
@@ -140,7 +149,7 @@ function createGlobalMarkdownTable($associativeArrayOfReqDirs) {
         $arrayOfMatchingTasksetDirectory = array_filter(   // filters the keys of $associativeArrayOfReqDirs to return only those that contain the substring $group, resulting in an array of matching keys.
             array_keys($associativeArrayOfReqDirs),
             function ($tasksetDirectoryKey) use ($folderName) {
-                return strpos($tasksetDirectoryKey, $folderName) !== false;
+                return preg_match('/_' . preg_quote($folderName, '/') . '$/', $tasksetDirectoryKey); # the key should match the pattern _css at the end of the key. So _javascript will not match _java
             }
         ); //    arrayOfMatchingTasksetDirectory = Array ( [0] => taskset_css_essential_training, [1] => taskset_getting_started_with_css, [2] => taskset_intermediate_html_and_css )
 
@@ -190,7 +199,7 @@ function createGlobalMarkdownTable($associativeArrayOfReqDirs) {
 
         $lastColumnPosition=0;
         $activeColumnPosition=0;
-        $maxAllowedColumnsInRow=5;
+        $maxAllowedColumnsInRow=$maxColumns;
         // $lenghtOfRowHeader = count($rowHeader);
         $twoSlashNsRequired="No"; // One \n is required the first time, two \n are required after that
         // While $lastColumnPosition is less than the length of the rowHeader array

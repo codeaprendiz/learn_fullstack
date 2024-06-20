@@ -1,0 +1,12 @@
+{
+  "keyValuePairs": {
+    "key1": "Value1",
+    "key3": "Value3",
+    "key2": "env some value 2"
+  },
+  "propertyArray": [
+    "Item1",
+    "Item2",
+    "env some value 3"
+  ]
+}
