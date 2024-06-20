@@ -190,7 +190,7 @@ function createGlobalMarkdownTable($associativeArrayOfReqDirs) {
 
         $lastColumnPosition=0;
         $activeColumnPosition=0;
-        $maxAllowedColumnsInRow=3;
+        $maxAllowedColumnsInRow=5;
         // $lenghtOfRowHeader = count($rowHeader);
         $twoSlashNsRequired="No"; // One \n is required the first time, two \n are required after that
         // While $lastColumnPosition is less than the length of the rowHeader array
