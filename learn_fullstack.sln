@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "home", "home", "{22DA734A-BC7C-4AE4-AF0F-69695EBC2C3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet", "dotnet", "{605FF553-DBB9-4371-9AEC-63C13CD6E98C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "intermediate", "intermediate", "{CC0D3E61-6485-42CF-A2EB-CE4575CB822F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "taskset_intermediate_dotnet", "taskset_intermediate_dotnet", "{923E9FDA-CEBD-4416-A8E3-F13AFB6B7E05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task_003_exercise_install_packages", "home\dotnet\intermediate\taskset_intermediate_dotnet\task_003_exercise_install_packages\task_003_exercise_install_packages.csproj", "{33DBAFFD-AD99-45DF-A450-0B408AD338BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "task_001_get_started_with_dot_net", "task_001_get_started_with_dot_net", "{180B4AAF-3277-4FD8-9171-8E5968D8B91E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sample1", "home\dotnet\intermediate\taskset_intermediate_dotnet\task_001_get_started_with_dot_net\sample1\sample1.csproj", "{99E63389-78A1-4DC4-AA3E-06C7C9BCB6B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "task_002_introduction_to_dotnet_and_docker", "task_002_introduction_to_dotnet_and_docker", "{07476742-497F-4685-A99B-1D0B46BC4A9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.Docker", "home\dotnet\intermediate\taskset_intermediate_dotnet\task_002_introduction_to_dotnet_and_docker\App\DotNet.Docker.csproj", "{D8690E60-F584-44CB-8D6B-81860E7D3E95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33DBAFFD-AD99-45DF-A450-0B408AD338BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DBAFFD-AD99-45DF-A450-0B408AD338BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DBAFFD-AD99-45DF-A450-0B408AD338BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DBAFFD-AD99-45DF-A450-0B408AD338BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E63389-78A1-4DC4-AA3E-06C7C9BCB6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E63389-78A1-4DC4-AA3E-06C7C9BCB6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E63389-78A1-4DC4-AA3E-06C7C9BCB6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E63389-78A1-4DC4-AA3E-06C7C9BCB6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8690E60-F584-44CB-8D6B-81860E7D3E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8690E60-F584-44CB-8D6B-81860E7D3E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8690E60-F584-44CB-8D6B-81860E7D3E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8690E60-F584-44CB-8D6B-81860E7D3E95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{605FF553-DBB9-4371-9AEC-63C13CD6E98C} = {22DA734A-BC7C-4AE4-AF0F-69695EBC2C3D}
+		{CC0D3E61-6485-42CF-A2EB-CE4575CB822F} = {605FF553-DBB9-4371-9AEC-63C13CD6E98C}
+		{923E9FDA-CEBD-4416-A8E3-F13AFB6B7E05} = {CC0D3E61-6485-42CF-A2EB-CE4575CB822F}
+		{33DBAFFD-AD99-45DF-A450-0B408AD338BC} = {923E9FDA-CEBD-4416-A8E3-F13AFB6B7E05}
+		{180B4AAF-3277-4FD8-9171-8E5968D8B91E} = {923E9FDA-CEBD-4416-A8E3-F13AFB6B7E05}
+		{99E63389-78A1-4DC4-AA3E-06C7C9BCB6B6} = {180B4AAF-3277-4FD8-9171-8E5968D8B91E}
+		{07476742-497F-4685-A99B-1D0B46BC4A9C} = {923E9FDA-CEBD-4416-A8E3-F13AFB6B7E05}
+		{D8690E60-F584-44CB-8D6B-81860E7D3E95} = {07476742-497F-4685-A99B-1D0B46BC4A9C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F60DDD9-DBFE-46CF-A429-0358EC3E135C}
+	EndGlobalSection
+EndGlobal

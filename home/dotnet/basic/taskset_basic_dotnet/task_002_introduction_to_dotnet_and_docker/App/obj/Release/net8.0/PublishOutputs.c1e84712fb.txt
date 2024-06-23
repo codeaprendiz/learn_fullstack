@@ -1,5 +1,0 @@
-/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/bin/Release/net8.0/publish/DotNet.Docker
-/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/bin/Release/net8.0/publish/DotNet.Docker.dll
-/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/bin/Release/net8.0/publish/DotNet.Docker.deps.json
-/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/bin/Release/net8.0/publish/DotNet.Docker.runtimeconfig.json
-/Users/rinkydahiya/workspace/InfiniteTechStack/learn_dot_net/taskset/task_002_introduction_to_dotnet_and_docker/App/bin/Release/net8.0/publish/DotNet.Docker.pdb

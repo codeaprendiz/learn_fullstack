@@ -1,6 +1,6 @@
 # taskset_02_nodejs_essential_training_nodejs
 
-> [Auto](https://github.com/codeaprendiz/learn_fullstack/blob/main/home/php/intermediate/taskset_intermediate_php/task_004_createGlobalMarkdownTable/generate-readme.php) generated ReadMe. Number of tasks: 26
+> Auto generated ReadMe. Number of tasks: 26
 
 [LinkedIn - Node.js Essential Training](https://www.linkedin.com/learning/node-js-essential-training-14888164/learning-the-node-js-basics)
 

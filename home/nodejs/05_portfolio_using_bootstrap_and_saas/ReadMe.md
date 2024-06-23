@@ -1,6 +1,6 @@
 # taskset_05_portfolio_using_bootstrap_and_saas_nodejs
 
-> [Auto](https://github.com/codeaprendiz/learn_fullstack/blob/main/home/php/intermediate/taskset_intermediate_php/task_004_createGlobalMarkdownTable/generate-readme.php) generated ReadMe. Number of tasks: 8
+> Auto generated ReadMe. Number of tasks: 8
 
 [youtube.com » Learn Bootstrap 5 and SASS by Building a Portfolio Website - Full Course](https://www.youtube.com/watch?v=iJKCj8uAHz8)
 
