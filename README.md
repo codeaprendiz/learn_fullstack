@@ -1,6 +1,6 @@
 # Home
 
-> [Auto](https://github.com/codeaprendiz/learn_fullstack/blob/main/home/php/intermediate/taskset_intermediate_php/task_004_createGlobalMarkdownTable/generate-readme.php) generated ReadMe. Number of tasks: 361
+> [Auto](https://github.com/codeaprendiz/learn_fullstack/blob/main/home/php/intermediate/taskset_intermediate_php/task_004_createGlobalMarkdownTable/generate-readme.php) generated ReadMe. Number of tasks: 386
 
 - [css](#css)
 - [dotnet](#dotnet)
@@ -26,9 +26,9 @@
 
 [Useful Links](./home/dotnet/ReadMe_static.md)
 
-| basic                         |
-|-------------------------------|
-| [Tasks: 2](home/dotnet/basic) |
+| intermediate                         |
+|--------------------------------------|
+| [Tasks: 3](home/dotnet/intermediate) |
 
 ## go
 
