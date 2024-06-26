@@ -177,9 +177,7 @@ function createGlobalMarkdownTable($associativeArrayOfReqDirs) {
         $rowHeader = explode('|', $rowHeader);
 
         $rowData = "";
-        foreach ($arrayOfMatchingTasksetDirectory as $matchingTasksetDirectory) {
-            # $rowData .= " --- |";
-        }
+
 
 
         foreach ($arrayOfMatchingTasksetDirectory as $matchingTasksetDirectory) { // matchingTasksetDirectory=taskset_css_essential_training
@@ -200,11 +198,11 @@ function createGlobalMarkdownTable($associativeArrayOfReqDirs) {
         $lastColumnPosition=0;
         $activeColumnPosition=0;
         $maxAllowedColumnsInRow=$maxColumns;
-        // $lenghtOfRowHeader = count($rowHeader);
+        // print("\nRowHeader ");print_r($rowHeader);
         $twoSlashNsRequired="No"; // One \n is required the first time, two \n are required after that
         // While $lastColumnPosition is less than the length of the rowHeader array
         while ($lastColumnPosition < count($rowHeader)-1) {
-            $maxAllowedColumnsInRow = $lastColumnPosition + $maxAllowedColumnsInRow;
+            $maxAllowedColumnsInRow = $lastColumnPosition + $maxColumns;
             // Start the row with a pipe
             if ($twoSlashNsRequired=="No") {
                 $markdown .= "\n|";
@@ -219,6 +217,10 @@ function createGlobalMarkdownTable($associativeArrayOfReqDirs) {
                 if (empty($rowHeader[$activeColumnPosition])) {
                     break;
                 }
+                // print("\nActiveColumnPosition: ");print($activeColumnPosition);
+                // print("\nLastColumnPosition: ");print($lastColumnPosition);
+                // print("\nMaxAllowedColumnsInRow: ");print($maxAllowedColumnsInRow);
+                // print("\nRowHeader[ActiveColumnPosition]: ");print($rowHeader[$activeColumnPosition]);
                 $markdown .= $rowHeader[$activeColumnPosition];
                 $markdown .= "|";
             }
@@ -248,6 +250,8 @@ function createGlobalMarkdownTable($associativeArrayOfReqDirs) {
             }
 
             $lastColumnPosition=$activeColumnPosition;
+            // print("\nLastColumnPosition: ");print($lastColumnPosition);
+
             
         }
 
