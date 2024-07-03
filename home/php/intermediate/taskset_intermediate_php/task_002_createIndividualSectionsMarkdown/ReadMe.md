@@ -2,6 +2,8 @@
 
 > Note: Run the file from the root directory of the repository.
 
+<br>
+
 ## Directory Structre
 
 ```bash
@@ -27,6 +29,8 @@ $ tree
 
 11 directories, 7 files
 ```
+
+<br>
 
 ## Detailed debug Output
 
@@ -123,9 +127,13 @@ Adding following row to markdown
 | task_001 | [task_001_one](taskset_topic_4_group_4/task_001_one) |
 ```
 
+<br>
+
 ## Understanding Regex
 
 let's break down the regular expression `/base\/.*?(?=\/task_)/` used in the `preg_match` function:
+
+<br>
 
 ### Explanation of the Regex `/base\/.*?(?=\/task_)/`
 
