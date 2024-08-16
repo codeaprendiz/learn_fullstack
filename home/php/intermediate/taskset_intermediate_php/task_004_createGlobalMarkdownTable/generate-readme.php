@@ -77,6 +77,10 @@ function createIndividualSectionsMarkdown($associativeArrayOfReqDirs)
         $numberOfTasksInTasksetDirectory = count($arrayOfDirectoriesInTasksetDirectory);
         $pattern = sprintf('/%s\/.*?(?=\/task_)/', preg_quote($baseDir, '/'));
         preg_match($pattern, $arrayOfDirectoriesInTasksetDirectory[0], $matches);
+        if (!isset($matches[0])) {
+            echo "No match found for pattern $pattern. Skipping...\n";
+            continue;
+        }
         $relativePathToTasksetDirectoryReadMeFile = $matches[0];
         $relativePathToTasksetDirectoryReadMeFile = substr($relativePathToTasksetDirectoryReadMeFile, 0, strrpos($relativePathToTasksetDirectoryReadMeFile, '/'));
 

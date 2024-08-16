@@ -1,12 +1,17 @@
 # ReadMe-static.md
 
 - [ReadMe-static.md](#readme-staticmd)
+  - [Commands gradle](#commands-gradle)
   - [settings.xml.md](#settingsxmlmd)
   - [VS Code Extensions](#vs-code-extensions)
   - [FAQs](#faqs)
     - [What's the difference between gradle groovy and gradle kotlin](#whats-the-difference-between-gradle-groovy-and-gradle-kotlin)
     - [While running the application it always remains stuck on following](#while-running-the-application-it-always-remains-stuck-on-following)
     - [Difference between JDK, JRE and Java SE](#difference-between-jdk-jre-and-java-se)
+
+## Commands gradle
+
+[]()
 
 ## settings.xml.md
 
