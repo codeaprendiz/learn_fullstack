@@ -1,6 +1,6 @@
 # taskset_intermediate_shell
 
-> [Auto](https://github.com/codeaprendiz/learn_fullstack/blob/main/home/php/intermediate/taskset_intermediate_php/task_004_createGlobalMarkdownTable/generate-readme.php) generated ReadMe. Number of tasks: 11
+> [Auto](https://github.com/codeaprendiz/learn_fullstack/blob/main/home/php/intermediate/taskset_intermediate_php/task_004_createGlobalMarkdownTable/generate-readme.php) generated ReadMe. Number of tasks: 12
 
 | Task     | Description                                                                                                                       |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------|
@@ -15,3 +15,4 @@
 | task_009 | [task_009_indirect_expansion__checks_for_null_None](taskset_intermediate_shell/task_009_indirect_expansion__checks_for_null_None) |
 | task_010 | [task_010_parameter_expansion](taskset_intermediate_shell/task_010_parameter_expansion)                                           |
 | task_011 | [task_011_slack_notifify_github_actions](taskset_intermediate_shell/task_011_slack_notifify_github_actions)                       |
+| task_012 | [task_012_run_if_file_exists](taskset_intermediate_shell/task_012_run_if_file_exists)                                             |
