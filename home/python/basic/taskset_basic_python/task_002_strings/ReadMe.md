@@ -2,8 +2,7 @@
 
 - [Strings](#strings)
   - [Single quotes and double quotes](#single-quotes-and-double-quotes)
-  - [len(string)](#lenstring)
-  - [String Assignment](#string-assignment)
+  - [String Manipulation](#string-manipulation)
   - [String Methods](#string-methods)
   - [Formatting](#formatting)
 
@@ -15,14 +14,7 @@
 5
 ```
 
-## len(string)
-
-```bash
->>> len('two')
-3
-```
-
-## String Assignment
+## String Manipulation
 
 ```bash
 >>> s='hello'
@@ -73,6 +65,11 @@ h
 ```
 
 ## String Methods
+
+```bash
+>>> len('two')
+3
+```
 
 ```bash
 >>> s.upper()
