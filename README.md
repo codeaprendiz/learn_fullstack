@@ -80,6 +80,8 @@
 
 ## python
 
+[Useful Links](./home/python/ReadMe_static.md)
+
 | basic                         | intermediate                          |
 |-------------------------------|---------------------------------------|
 | [Tasks: 2](home/python/basic) | [Tasks: 10](home/python/intermediate) |

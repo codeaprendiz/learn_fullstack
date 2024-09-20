@@ -1,6 +1,14 @@
 
+# Numbers
 
-### Addition
+- [Numbers](#numbers)
+  - [Addition](#addition)
+  - [Subtraction](#subtraction)
+  - [Multiplication](#multiplication)
+  - [Division](#division)
+  - [Power](#power)
+
+## Addition
 
 ```bash
 >>> 2+1
@@ -13,25 +21,33 @@
 10
 ```
 
-
-### Subtraction
+## Subtraction
 
 ```bash
 >>> 4-1
 3
 ```
 
-### Multiplication
+## Multiplication
 
 ```bash
 >>> 3*3
 9
 ```
 
-### Division
+## Division
 
 ```bash
 >>> 3/3
 1.0
 ```
 
+## Power
+
+```bash
+>>> 2**3
+8
+# Can also do roots this way
+>>> 4**0.5
+2.0
+```
