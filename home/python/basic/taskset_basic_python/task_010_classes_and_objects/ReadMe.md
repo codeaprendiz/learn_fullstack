@@ -1,5 +1,10 @@
 # Classes and Objects
 
+- [Classes and Objects](#classes-and-objects)
+  - [Objects of type class](#objects-of-type-class)
+  - [Classes](#classes)
+  - [Inheritence](#inheritence)
+
 ## Objects of type class
 
 ```bash
