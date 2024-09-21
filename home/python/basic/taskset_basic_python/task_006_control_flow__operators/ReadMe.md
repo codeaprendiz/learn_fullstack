@@ -1,5 +1,13 @@
 # Control Flow and Operators
 
+- [Control Flow and Operators](#control-flow-and-operators)
+  - [Operators](#operators)
+    - [Comparision Operators](#comparision-operators)
+    - [Logical Operators](#logical-operators)
+  - [Control Flow](#control-flow)
+    - [if else](#if-else)
+    - [Loops](#loops)
+
 ## Operators
 
 ### Comparision Operators
