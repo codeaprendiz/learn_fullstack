@@ -16,7 +16,7 @@
 [1, '2', 'three', 2.4, 2, 4, 3]
 ```
 
---
+---
 
 ## Indexing and Slicing
 
