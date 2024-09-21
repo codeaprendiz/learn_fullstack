@@ -1,6 +1,6 @@
 # Scope
 
----
+## Example 1
 
 ```python
 x = 25
@@ -24,6 +24,8 @@ Output
 ```
 
 ---
+
+## Example with global
 
 ```bash
 x = 25
