@@ -5,6 +5,8 @@
   - [Classes](#classes)
   - [Inheritence](#inheritence)
 
+---
+
 ## Objects of type class
 
 ```bash

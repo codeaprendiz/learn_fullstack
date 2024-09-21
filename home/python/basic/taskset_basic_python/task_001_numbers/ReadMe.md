@@ -8,6 +8,8 @@
   - [Division](#division)
   - [Power](#power)
 
+---
+
 ## Addition
 
 ```bash
@@ -21,12 +23,16 @@
 10
 ```
 
+---
+
 ## Subtraction
 
 ```bash
 >>> 4-1
 3
 ```
+
+---
 
 ## Multiplication
 
@@ -35,12 +41,16 @@
 9
 ```
 
+---
+
 ## Division
 
 ```bash
 >>> 3/3
 1.0
 ```
+
+---
 
 ## Power
 

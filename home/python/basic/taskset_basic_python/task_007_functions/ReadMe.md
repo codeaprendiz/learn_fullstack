@@ -1,6 +1,13 @@
 # Functions
 
-Print function with default value of param
+- [Functions](#functions)
+  - [Print function with default value of param](#print-function-with-default-value-of-param)
+  - [Return value](#return-value)
+  - [Filter Function](#filter-function)
+
+---
+
+## Print function with default value of param
 
 ```python
 def helloworld(param='default'):
@@ -17,7 +24,9 @@ default
 newvalue
 ```
 
-Return value
+---
+
+## Return value
 
 ```python
 def hello():
@@ -32,6 +41,8 @@ Output
 ```bash
 hello
 ```
+
+---
 
 ## Filter Function
 

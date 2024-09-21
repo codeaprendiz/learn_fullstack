@@ -1,6 +1,17 @@
 # Tuples, Sets And Booleans
 
+- [Tuples, Sets And Booleans](#tuples-sets-and-booleans)
+  - [Tuples](#tuples)
+    - [Initialize](#initialize)
+    - [Methods](#methods)
+  - [Set](#set)
+  - [Booleans](#booleans)
+
+---
+
 ## Tuples
+
+---
 
 ### Initialize
 
@@ -17,6 +28,8 @@
 >>> t[-1]
 'four'
 ```
+
+---
 
 ### Methods
 
@@ -37,6 +50,8 @@
 1
 ```
 
+---
+
 ## Set
 
 ```bash
@@ -54,6 +69,8 @@
 >>> set(l)
 {1, 2, 3, 4, 5, 11}
 ```
+
+---
 
 ## Booleans
 

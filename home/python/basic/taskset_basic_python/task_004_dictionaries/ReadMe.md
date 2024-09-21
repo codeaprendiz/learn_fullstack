@@ -1,5 +1,11 @@
 # Dictionaries
 
+- [Dictionaries](#dictionaries)
+  - [Initialize](#initialize)
+  - [Methods](#methods)
+
+---
+
 ## Initialize
 
 Make a dictionary with {} and : to signify a key and a value
@@ -34,6 +40,8 @@ Make a dictionary with {} and : to signify a key and a value
 >>> d['key2']
 {'key3': 'value3'}
 ```
+
+---
 
 ## Methods
 

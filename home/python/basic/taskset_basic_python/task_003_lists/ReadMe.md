@@ -3,8 +3,10 @@
 - [lists](#lists)
   - [Initialize](#initialize)
   - [Indexing and Slicing](#indexing-and-slicing)
-  - [Functions](#functions)
+  - [List Functions](#list-functions)
   - [Nesting List](#nesting-list)
+
+---
 
 ## Initialize
 
@@ -13,6 +15,8 @@
 >>> a
 [1, '2', 'three', 2.4, 2, 4, 3]
 ```
+
+--
 
 ## Indexing and Slicing
 
@@ -43,7 +47,9 @@
 [1, '2', 'three', 2.4, 2, 4, 3, 'new', 1, '2', 'three', 2.4, 2, 4, 3, 'new']
 ```
 
-## Functions
+---
+
+## List Functions
 
 ```bash
 >>> len(a)
@@ -71,6 +77,8 @@
 >>> b
 [1, 2, 4, 5]
 ```
+
+---
 
 ## Nesting List
 

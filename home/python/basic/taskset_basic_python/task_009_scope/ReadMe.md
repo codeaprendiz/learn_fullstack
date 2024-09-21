@@ -4,6 +4,8 @@
   - [Example 1](#example-1)
   - [Example with global](#example-with-global)
 
+---
+
 ## Example 1
 
 ```python
@@ -52,3 +54,4 @@ Output
 50
 50
 ```
+

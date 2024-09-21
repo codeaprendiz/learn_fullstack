@@ -6,6 +6,8 @@
   - [String Methods](#string-methods)
   - [Formatting](#formatting)
 
+---
+
 ## Single quotes and double quotes
 
 ```bash
@@ -13,6 +15,8 @@
 1 two "3" 4 
 5
 ```
+
+---
 
 ## String Manipulation
 
@@ -64,6 +68,8 @@ h
 'hello concatenate me!'
 ```
 
+---
+
 ## String Methods
 
 ```bash
@@ -86,6 +92,8 @@ h
 >>> str.split('w')
 ['hello ', 'orld']
 ```
+
+---
 
 ## Formatting
 

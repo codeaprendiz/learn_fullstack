@@ -8,7 +8,11 @@
     - [if else](#if-else)
     - [Loops](#loops)
 
+---
+
 ## Operators
+
+---
 
 ### Comparision Operators
 
@@ -37,6 +41,8 @@ False
 True
 ```
 
+---
+
 ### Logical Operators
 
 ```bash
@@ -53,7 +59,11 @@ True
 True
 ```
 
+---
+
 ## Control Flow
+
+---
 
 ### if else
 
@@ -87,6 +97,8 @@ Output
 ```bash
 2==2
 ```
+
+---
 
 ### Loops
 
