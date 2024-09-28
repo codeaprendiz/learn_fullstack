@@ -17,7 +17,7 @@ $ cat test.md
 
 ### h4
 
-$ README_FILENAME=test.md php updateReadMe.php 
+$ README_FILENAME=test.md LINES=5 php updateReadMe.php
 ./test.md
 
 $ cat test.md
