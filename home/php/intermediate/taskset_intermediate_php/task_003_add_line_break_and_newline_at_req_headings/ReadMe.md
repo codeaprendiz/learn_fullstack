@@ -8,28 +8,33 @@
 ## Run
 
 ```bash
-$ cat ReadMe.md                                         
-# Add line break and newline at req headings
+$ cat test.md
+# h1
 
-# Run
+## h2
 
-$ $ php updateReadMe.php 
+## h3
+
+### h4
+
+$ README_FILENAME=test.md php updateReadMe.php 
+./test.md
+
+$ cat test.md
+# h1
+
+<br>
+
+## h2
+
+<br>
+
+## h3
+
+<br>
+
+### h4
+
+$ php updateReadMe.php # This will also change current ReadMe.md
 ./ReadMe.md
-
-
-$ cat ReadMe.md
-# Add line break and newline at req headings
-
-# Run
-
-```bash
-$ cat ReadMe.md                                         
-# Add line break and newline at req headings
-
-# Run
-
-$ $ php updateReadMe.php 
-./ReadMe.md
-
-
 ```

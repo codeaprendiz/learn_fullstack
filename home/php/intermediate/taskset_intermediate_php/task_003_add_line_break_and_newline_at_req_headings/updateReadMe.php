@@ -18,11 +18,14 @@ function handleError($errno, $errstr, $errfile, $errline) {
     exit(1);
 }
 
+// Get the environment variable for the file name, defaulting to 'ReadMe.md' if not set
+$readMe_filename = getenv('README_FILENAME') ?: 'ReadMe.md';
+
 // Set the custom error handler
 set_error_handler('handleError');
 
 // Command to find all ReadMe.md files from the current directory
-$command_to_find_all_readMe_files_from_current_directory = 'find . -name ReadMe.md | head -n 5';
+$command_to_find_all_readMe_files_from_current_directory = "find . -name {$readMe_filename} | head -n 5";
 $all_readMe_files_from_current_directory = shell_exec($command_to_find_all_readMe_files_from_current_directory);
 
 print_r($all_readMe_files_from_current_directory);
