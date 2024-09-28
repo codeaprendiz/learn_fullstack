@@ -1,7 +1,7 @@
 # Add line break and newline at req headings
 
 > [!NOTE]
-> Only 5 files are changed at a time.
+> Only 5 files are changed at a time. This is also configurable.
 
 <br>
 
