@@ -25,7 +25,7 @@ $lines = getenv('LINES') ?: '5';
 set_error_handler('handleError');
 
 // Command to find all ReadMe.md files from the current directory
-$command_to_find_all_readMe_files_from_current_directory = "find . -name {$readMe_filename} | head -n {$lines}";
+$command_to_find_all_readMe_files_from_current_directory = "find . -iname {$readMe_filename} | head -n {$lines}";
 $all_readMe_files_from_current_directory = shell_exec($command_to_find_all_readMe_files_from_current_directory);
 
 print_r($all_readMe_files_from_current_directory);
